@@ -86,6 +86,10 @@ angular.module('ionicParseApp.controllers', [])
     $scope.forgot = function() {
         $state.go('app.forgot');
     };
+
+        $scope.register = function() {
+            $state.go('app.register');
+        };
 })
 
 .controller('ForgotPasswordController', function($scope, $state, $ionicLoading) {
