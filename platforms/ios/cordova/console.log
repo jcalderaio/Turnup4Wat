@@ -305,3 +305,40 @@
 2015-03-19 14:54:05.870 StarterApp[2275:12917] Unlimited access to network resources
 2015-03-19 14:54:06.001 StarterApp[2275:12917] Resetting plugins due to page load.
 2015-03-19 14:54:06.253 StarterApp[2275:12917] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 17:35:23.290 StarterApp[8757:156907] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/7A1C56D4-72F1-4506-A62A-799FA61AF4AE/Library/Cookies/Cookies.binarycookies
+2015-03-19 17:35:23.421 StarterApp[8757:156907] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 17:35:23.421 StarterApp[8757:156907] Multi-tasking -> Device: YES, App: YES
+2015-03-19 17:35:23.423 StarterApp[8757:156907] Unlimited access to network resources
+2015-03-19 17:35:23.938 StarterApp[8757:156907] Resetting plugins due to page load.
+2015-03-19 17:35:24.457 StarterApp[8757:156907] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 17:36:47.786 StarterApp[8757:156907] Resetting plugins due to page load.
+2015-03-19 17:36:47.843 StarterApp[8757:156907] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 17:41:11.962 StarterApp[8757:156907] Resetting plugins due to page load.
+2015-03-19 17:41:12.246 StarterApp[8757:156907] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 17:41:38.406 StarterApp[8757:159170] Communications error: <OS_xpc_error: <error: 0x2d1a5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d1a83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-03-19 17:50:48.488 StarterApp[10394:172401] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/9220EA5C-F53B-460E-96F3-60694881C466/Library/Cookies/Cookies.binarycookies
+2015-03-19 17:50:48.559 StarterApp[10394:172401] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 17:50:48.559 StarterApp[10394:172401] Multi-tasking -> Device: YES, App: YES
+2015-03-19 17:50:48.560 StarterApp[10394:172401] Unlimited access to network resources
+2015-03-19 17:50:48.693 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:50:48.865 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 17:55:03.235 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:55:03.417 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 17:55:22.141 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:55:22.375 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 17:55:27.360 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:55:27.458 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 17:55:57.034 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:55:57.094 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 17:56:24.208 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:56:24.370 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 17:56:40.019 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:56:40.068 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 17:57:20.787 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:57:20.791 StarterApp[10394:172401] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-03-19 17:57:20.791 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:57:20.878 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 17:57:30.856 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 17:57:30.919 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
