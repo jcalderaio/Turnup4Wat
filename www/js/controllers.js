@@ -23,7 +23,7 @@ angular.module('ionicParseApp.controllers', [])
     }
 
     $scope.login = function() {
-        $state.go('app.login');
+        $state.go('login');
     };
 
     $scope.signUp = function() {

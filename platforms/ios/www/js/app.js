@@ -22,6 +22,12 @@ angular.module('ionicParseApp',
                 controller: 'WelcomeController'
             })
 
+            .state('login', {
+                url: '/login?clear',
+                templateUrl: 'templates/login.html',
+                controller: 'LoginController'
+            })
+
             .state('app', {
                 url: '/app?clear',
                 abstract: true,
@@ -36,14 +42,6 @@ angular.module('ionicParseApp',
                         templateUrl: 'templates/home.html',
                         controller: 'HomeController'
                     }
-                }
-            })
-
-            .state('app.login', {
-                url: '/login',
-                views: {
-                    templateUrl: 'templates/login.html',
-                        controller: 'LoginController'
                 }
             })
 
