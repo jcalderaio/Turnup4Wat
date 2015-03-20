@@ -342,3 +342,86 @@
 2015-03-19 17:57:20.878 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
 2015-03-19 17:57:30.856 StarterApp[10394:172401] Resetting plugins due to page load.
 2015-03-19 17:57:30.919 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:22:39.905 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 20:22:39.993 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:23:12.055 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 20:23:12.132 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:25:08.955 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 20:25:09.038 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:33:34.683 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 20:33:34.769 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:33:49.688 StarterApp[10394:172401] Resetting plugins due to page load.
+2015-03-19 20:33:49.776 StarterApp[10394:172401] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:36:08.755 StarterApp[10394:204886] Communications error: <OS_xpc_error: <error: 0x2d6d5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d6d83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-03-19 20:37:56.192 StarterApp[11717:207435] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/109244E6-2AA5-4B1C-BF92-80463F806348/Library/Cookies/Cookies.binarycookies
+2015-03-19 20:37:56.263 StarterApp[11717:207435] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 20:37:56.264 StarterApp[11717:207435] Multi-tasking -> Device: YES, App: YES
+2015-03-19 20:37:56.265 StarterApp[11717:207435] Unlimited access to network resources
+2015-03-19 20:37:56.339 StarterApp[11717:207435] [CDVTimer][keyboard] 0.052035ms
+2015-03-19 20:37:56.339 StarterApp[11717:207435] [CDVTimer][TotalPluginStartup] 0.209033ms
+2015-03-19 20:37:56.399 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:37:56.665 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 20:38:08.386 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:38:08.564 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:38:32.426 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:38:32.693 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:42:18.505 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:42:18.590 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:42:41.475 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:42:41.555 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:44:05.108 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:44:05.297 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:44:20.713 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:44:20.985 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:44:31.281 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:44:31.553 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:44:41.229 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:44:41.508 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:44:59.446 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:44:59.530 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:45:14.951 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:45:15.026 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:48:54.579 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:48:54.656 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:49:17.549 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:49:17.807 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:50:09.833 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:50:10.012 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:50:35.821 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:50:36.003 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:51:29.040 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:51:29.131 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:53:56.630 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:53:56.821 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:57:58.205 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:57:58.290 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 20:58:27.310 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 20:58:27.589 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:00:12.436 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:00:12.621 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:00:34.592 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:00:34.673 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:01:03.928 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:01:04.018 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:04:46.637 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:04:46.763 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:05:50.031 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:05:50.119 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:06:29.268 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:06:29.384 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:11:50.456 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:11:50.576 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:12:07.271 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:12:07.359 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:12:23.279 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:12:23.371 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:13:31.025 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:13:31.229 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:13:43.200 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:13:43.394 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:13:52.758 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:13:52.841 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:14:15.810 StarterApp[11717:207435] Resetting plugins due to page load.
+2015-03-19 21:14:15.904 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login

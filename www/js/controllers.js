@@ -50,6 +50,8 @@ angular.module('ionicParseApp.controllers', [])
 
     $scope.error = {};
 
+        $rootScope.toggledrag = false;   //Set this in all the controllers you want to have enabled/disabled drag
+
     $scope.login = function() {
         $scope.loading = $ionicLoading.show({
             content: 'Logging in',
