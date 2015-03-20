@@ -425,3 +425,72 @@
 2015-03-19 21:13:52.841 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
 2015-03-19 21:14:15.810 StarterApp[11717:207435] Resetting plugins due to page load.
 2015-03-19 21:14:15.904 StarterApp[11717:207435] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:17:12.348 StarterApp[13011:250343] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/7E8F6244-3595-465A-9B24-ABAA1A5593AA/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:17:12.421 StarterApp[13011:250343] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 21:17:12.421 StarterApp[13011:250343] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:17:12.425 StarterApp[13011:250343] Unlimited access to network resources
+2015-03-19 21:17:12.500 StarterApp[13011:250343] [CDVTimer][keyboard] 0.054002ms
+2015-03-19 21:17:12.500 StarterApp[13011:250343] [CDVTimer][TotalPluginStartup] 0.193000ms
+2015-03-19 21:17:12.564 StarterApp[13011:250343] Resetting plugins due to page load.
+2015-03-19 21:17:12.905 StarterApp[13011:250343] Finished load of: http://192.168.1.239:8100/#/app/home
+2015-03-19 21:17:45.043 StarterApp[13011:250813] Terminating since there is no system app.
+2015-03-19 21:18:36.192 StarterApp[13321:252753] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/23324183-96DF-4FB8-99AE-B9471043377C/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:18:36.268 StarterApp[13321:252753] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 21:18:36.269 StarterApp[13321:252753] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:18:36.270 StarterApp[13321:252753] Unlimited access to network resources
+2015-03-19 21:18:36.339 StarterApp[13321:252753] [CDVTimer][keyboard] 0.051022ms
+2015-03-19 21:18:36.339 StarterApp[13321:252753] [CDVTimer][TotalPluginStartup] 0.185013ms
+2015-03-19 21:18:36.418 StarterApp[13321:252753] Resetting plugins due to page load.
+2015-03-19 21:18:36.587 StarterApp[13321:252753] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 21:21:49.598 StarterApp[13321:252753] Resetting plugins due to page load.
+2015-03-19 21:21:49.791 StarterApp[13321:252753] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:25:23.339 StarterApp[13781:259980] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/41B24ECA-672C-4256-9B19-B7527B1FAE1D/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:25:23.411 StarterApp[13781:259980] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 21:25:23.411 StarterApp[13781:259980] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:25:23.413 StarterApp[13781:259980] Unlimited access to network resources
+2015-03-19 21:25:23.482 StarterApp[13781:259980] [CDVTimer][keyboard] 0.055015ms
+2015-03-19 21:25:23.482 StarterApp[13781:259980] [CDVTimer][TotalPluginStartup] 0.187993ms
+2015-03-19 21:25:23.560 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:25:23.817 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 21:29:46.289 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:29:46.455 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:29:55.948 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:29:56.186 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:33:10.639 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:33:10.833 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:33:16.572 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:33:16.651 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:33:21.499 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:33:21.595 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:33:55.628 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:33:55.817 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:36:50.690 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:36:50.922 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:37:17.065 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:37:17.269 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:37:34.063 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:37:34.322 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:37:52.985 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:37:53.191 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:38:07.279 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:38:07.539 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:39:14.811 StarterApp[13781:259980] Resetting plugins due to page load.
+2015-03-19 21:39:14.910 StarterApp[13781:259980] Finished load of: http://192.168.1.239:8100/#/app/login
+2015-03-19 21:44:11.768 StarterApp[14557:275753] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/0209509D-D6D2-490E-BF09-B610B3A0D2E3/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:44:11.852 StarterApp[14557:275753] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 21:44:11.852 StarterApp[14557:275753] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:44:11.853 StarterApp[14557:275753] Unlimited access to network resources
+2015-03-19 21:44:11.921 StarterApp[14557:275753] [CDVTimer][keyboard] 0.048995ms
+2015-03-19 21:44:11.922 StarterApp[14557:275753] [CDVTimer][TotalPluginStartup] 0.184000ms
+2015-03-19 21:44:11.981 StarterApp[14557:275753] Resetting plugins due to page load.
+2015-03-19 21:44:12.110 StarterApp[14557:275753] Finished load of: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Bundle/Application/41C89663-13BA-43D5-9AAF-49EE7BC6540E/StarterApp.app/www/index.html#/welcome
+2015-03-19 21:46:20.516 StarterApp[14962:278217] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/41CAFBF8-E85A-432B-8555-D9A24DC47682/Library/Cookies/Cookies.binarycookies
+2015-03-19 21:46:20.586 StarterApp[14962:278217] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-19 21:46:20.586 StarterApp[14962:278217] Multi-tasking -> Device: YES, App: YES
+2015-03-19 21:46:20.587 StarterApp[14962:278217] Unlimited access to network resources
+2015-03-19 21:46:20.655 StarterApp[14962:278217] [CDVTimer][keyboard] 0.047982ms
+2015-03-19 21:46:20.655 StarterApp[14962:278217] [CDVTimer][TotalPluginStartup] 0.181019ms
+2015-03-19 21:46:20.713 StarterApp[14962:278217] Resetting plugins due to page load.
+2015-03-19 21:46:20.891 StarterApp[14962:278217] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-19 21:48:20.581 StarterApp[14962:278217] Resetting plugins due to page load.
+2015-03-19 21:48:20.773 StarterApp[14962:278217] Finished load of: http://192.168.1.239:8100/#/app/login
