@@ -29,22 +29,22 @@ angular.module('ionicParseApp',
                 controller: 'AppController'
             })
 
-            .state('app.home', {
-                url: '/home',
-                views: {
-                    'menuContent': {
-                        templateUrl: 'templates/home.html',
-                        controller: 'HomeController'
-                    }
-                }
-            })
-
             .state('app.login', {
                 url: '/login',
                 views: {
                     'menuContent': {
                         templateUrl: 'templates/login.html',
                         controller: 'LoginController'
+                    }
+                }
+            })
+
+            .state('app.home', {
+                url: '/home',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/home.html',
+                        controller: 'HomeController'
                     }
                 }
             })

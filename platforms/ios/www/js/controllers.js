@@ -42,11 +42,15 @@ angular.module('ionicParseApp.controllers', [])
     }
 })
 
-.controller('LoginController', function($scope, $state, $rootScope, $ionicLoading) {
+.controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
     $scope.user = {
         username: null,
         password: null
     };
+
+        $scope.myGoBack = function() {
+            $ionicHistory.goBack();
+        };
 
     $scope.error = {};
 
