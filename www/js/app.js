@@ -17,9 +17,21 @@ angular.module('Turnup',
 
             // setup an abstract state for the tabs directive
             .state('welcome', {
-                url: '/welcome?clear',
+                url: '/welcome',
                 templateUrl: 'templates/welcome.html',
-                controller: 'WelcomeController'
+                controller: 'WelcomeController',
+                data: {
+                    authenticate: false
+                }
+            })
+
+            .state('login', {
+                url: '/login',
+                templateUrl: 'templates/login.html',
+                controller: 'LoginController',
+                data: {
+                    authenticate: false
+                }
             })
 
             .state('app', {
@@ -27,16 +39,6 @@ angular.module('Turnup',
                 abstract: true,
                 templateUrl: 'templates/menu.html',
                 controller: 'AppController'
-            })
-
-            .state('app.login', {
-                url: '/login',
-                views: {
-                    'menuContent': {
-                        templateUrl: 'templates/login.html',
-                        controller: 'LoginController'
-                    }
-                }
             })
 
             .state('app.home', {

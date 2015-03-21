@@ -599,3 +599,86 @@
 2015-03-21 12:12:26.815 Turnup[41139:901899] [CDVTimer][TotalPluginStartup] 0.186980ms
 2015-03-21 12:12:26.867 Turnup[41139:901899] Resetting plugins due to page load.
 2015-03-21 12:12:27.115 Turnup[41139:901899] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:21:47.174 Turnup[41139:901899] Resetting plugins due to page load.
+2015-03-21 12:21:47.254 Turnup[41139:901899] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:21:57.844 Turnup[41139:901899] Resetting plugins due to page load.
+2015-03-21 12:21:57.956 Turnup[41139:901899] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:22:09.010 Turnup[41139:901899] Resetting plugins due to page load.
+2015-03-21 12:22:09.213 Turnup[41139:901899] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:28:21.860 Turnup[41139:901899] Resetting plugins due to page load.
+2015-03-21 12:28:21.862 Turnup[41139:901899] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-03-21 12:28:21.863 Turnup[41139:901899] Resetting plugins due to page load.
+2015-03-21 12:28:21.998 Turnup[41139:901899] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:28:38.703 Turnup[41139:915484] Terminating since there is no system app.
+2015-03-21 12:28:59.756 Turnup[41817:917005] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/6D99E3AB-4743-4F8C-8AE2-10560A6B83DD/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:28:59.815 Turnup[41817:917005] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:28:59.815 Turnup[41817:917005] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:28:59.816 Turnup[41817:917005] Unlimited access to network resources
+2015-03-21 12:28:59.884 Turnup[41817:917005] [CDVTimer][keyboard] 0.048041ms
+2015-03-21 12:28:59.884 Turnup[41817:917005] [CDVTimer][TotalPluginStartup] 0.174999ms
+2015-03-21 12:28:59.942 Turnup[41817:917005] Resetting plugins due to page load.
+2015-03-21 12:29:00.112 Turnup[41817:917005] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:30:09.961 Turnup[41817:917005] Resetting plugins due to page load.
+2015-03-21 12:30:10.029 Turnup[41817:917005] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:33:37.591 Turnup[41817:917005] Resetting plugins due to page load.
+2015-03-21 12:33:37.594 Turnup[41817:917005] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-03-21 12:33:37.594 Turnup[41817:917005] Resetting plugins due to page load.
+2015-03-21 12:33:37.704 Turnup[41817:917005] Finished load of: http://192.168.1.239:8100/#/app/home
+2015-03-21 12:34:13.553 Turnup[42225:920351] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/9A9F7308-D830-46DD-85C0-42EC5D94FC32/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:34:13.609 Turnup[42225:920351] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:34:13.609 Turnup[42225:920351] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:34:13.611 Turnup[42225:920351] Unlimited access to network resources
+2015-03-21 12:34:13.679 Turnup[42225:920351] [CDVTimer][keyboard] 0.052989ms
+2015-03-21 12:34:13.679 Turnup[42225:920351] [CDVTimer][TotalPluginStartup] 0.189006ms
+2015-03-21 12:34:13.735 Turnup[42225:920351] Resetting plugins due to page load.
+2015-03-21 12:34:13.904 Turnup[42225:920351] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:38:47.656 Turnup[42591:923248] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/44B250FB-1B54-4CA3-8F8B-A19CF0F90CF9/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:38:47.712 Turnup[42591:923248] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:38:47.712 Turnup[42591:923248] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:38:47.714 Turnup[42591:923248] Unlimited access to network resources
+2015-03-21 12:38:47.782 Turnup[42591:923248] [CDVTimer][keyboard] 0.051022ms
+2015-03-21 12:38:47.782 Turnup[42591:923248] [CDVTimer][TotalPluginStartup] 0.187039ms
+2015-03-21 12:38:47.837 Turnup[42591:923248] Resetting plugins due to page load.
+2015-03-21 12:38:48.005 Turnup[42591:923248] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:39:57.208 Turnup[42591:923248] Resetting plugins due to page load.
+2015-03-21 12:39:57.350 Turnup[42591:923248] Finished load of: http://192.168.1.239:8100/#/login
+2015-03-21 12:40:07.469 Turnup[42591:923248] Resetting plugins due to page load.
+2015-03-21 12:40:07.632 Turnup[42591:923248] Finished load of: http://192.168.1.239:8100/#/login
+2015-03-21 12:40:38.206 Turnup[42912:925466] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/294D0B93-721E-419D-9E56-F99AA73F29D6/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:40:38.262 Turnup[42912:925466] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:40:38.262 Turnup[42912:925466] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:40:38.264 Turnup[42912:925466] Unlimited access to network resources
+2015-03-21 12:40:38.329 Turnup[42912:925466] [CDVTimer][keyboard] 0.049055ms
+2015-03-21 12:40:38.329 Turnup[42912:925466] [CDVTimer][TotalPluginStartup] 0.178993ms
+2015-03-21 12:40:38.397 Turnup[42912:925466] Resetting plugins due to page load.
+2015-03-21 12:40:38.578 Turnup[42912:925466] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:41:04.568 Turnup[42912:925466] Resetting plugins due to page load.
+2015-03-21 12:41:04.694 Turnup[42912:925466] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:42:33.703 Turnup[42912:925466] Resetting plugins due to page load.
+2015-03-21 12:42:33.853 Turnup[42912:925466] Finished load of: http://192.168.1.239:8100/#/login
+2015-03-21 12:42:59.484 Turnup[43250:928561] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/92C9FCAA-EB48-450F-B78D-B87075B9FC1B/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:42:59.542 Turnup[43250:928561] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:42:59.542 Turnup[43250:928561] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:42:59.543 Turnup[43250:928561] Unlimited access to network resources
+2015-03-21 12:42:59.609 Turnup[43250:928561] [CDVTimer][keyboard] 0.047982ms
+2015-03-21 12:42:59.610 Turnup[43250:928561] [CDVTimer][TotalPluginStartup] 0.186980ms
+2015-03-21 12:42:59.672 Turnup[43250:928561] Resetting plugins due to page load.
+2015-03-21 12:42:59.851 Turnup[43250:928561] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:43:41.511 Turnup[43250:928561] Resetting plugins due to page load.
+2015-03-21 12:43:41.658 Turnup[43250:928561] Finished load of: http://192.168.1.239:8100/#/login
+2015-03-21 12:43:49.555 Turnup[43250:928561] Resetting plugins due to page load.
+2015-03-21 12:43:49.617 Turnup[43250:928561] Finished load of: http://192.168.1.239:8100/#/login
+2015-03-21 12:44:53.768 Turnup[43250:928561] Resetting plugins due to page load.
+2015-03-21 12:44:53.912 Turnup[43250:928561] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:45:28.809 Turnup[43250:928561] Resetting plugins due to page load.
+2015-03-21 12:45:28.960 Turnup[43250:928561] Finished load of: http://192.168.1.239:8100/#/login
+2015-03-21 12:45:35.904 Turnup[43250:930462] Terminating since there is no system app.
+2015-03-21 12:45:56.319 Turnup[43602:932090] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/2E27E64B-0335-468C-89EB-519A32809F2A/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:45:56.376 Turnup[43602:932090] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:45:56.377 Turnup[43602:932090] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:45:56.378 Turnup[43602:932090] Unlimited access to network resources
+2015-03-21 12:45:56.446 Turnup[43602:932090] [CDVTimer][keyboard] 0.053942ms
+2015-03-21 12:45:56.446 Turnup[43602:932090] [CDVTimer][TotalPluginStartup] 0.190020ms
+2015-03-21 12:45:56.514 Turnup[43602:932090] Resetting plugins due to page load.
+2015-03-21 12:45:56.772 Turnup[43602:932090] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:46:32.432 Turnup[43602:932090] Simulator slow-motion animations are now on

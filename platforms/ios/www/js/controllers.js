@@ -23,7 +23,7 @@ angular.module('Turnup.controllers', [])
     }*/
 
     $scope.login = function() {
-        $state.go('app.login');
+        $state.go('login');
     };
 
     $scope.signUp = function() {
@@ -50,8 +50,13 @@ angular.module('Turnup.controllers', [])
         password: null
     };
 
-        $scope.myGoBack = function() {
+        /*$scope.myGoBack = function() {
             $ionicHistory.goBack();
+        };*/
+
+
+        $scope.myGoBack = function() {
+            $state.go('welcome');
         };
 
     $scope.error = {};
@@ -137,7 +142,7 @@ angular.module('Turnup.controllers', [])
     };
 
     $scope.login = function() {
-        $state.go('app.login');
+        $state.go('login');
     };
 })
 
