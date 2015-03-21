@@ -562,3 +562,40 @@
 2015-03-21 11:50:23.986 Turnup[39893:887691] Resetting plugins due to page load.
 2015-03-21 11:50:24.516 Turnup[39893:887691] Finished load of: http://192.168.1.239:8100/#/app/home
 2015-03-21 11:51:42.098 Turnup[39893:887691] Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates.
+2015-03-21 12:01:47.091 Turnup[39893:887691] Resetting plugins due to page load.
+2015-03-21 12:01:47.204 Turnup[39893:887691] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-21 12:02:06.217 Turnup[40369:894022] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/4041EF6D-33F0-4DBC-95B8-04E598CB5286/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:02:06.305 Turnup[40369:894022] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:02:06.306 Turnup[40369:894022] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:02:06.307 Turnup[40369:894022] Unlimited access to network resources
+2015-03-21 12:02:06.374 Turnup[40369:894022] [CDVTimer][keyboard] 0.056982ms
+2015-03-21 12:02:06.374 Turnup[40369:894022] [CDVTimer][TotalPluginStartup] 0.202000ms
+2015-03-21 12:02:06.463 Turnup[40369:894022] Resetting plugins due to page load.
+2015-03-21 12:02:06.686 Turnup[40369:894022] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:03:14.211 Turnup[40369:894022] Resetting plugins due to page load.
+2015-03-21 12:03:14.341 Turnup[40369:894022] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-21 12:05:39.163 Turnup[40369:894022] Resetting plugins due to page load.
+2015-03-21 12:05:39.232 Turnup[40369:894022] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-21 12:10:37.399 Turnup[40369:894022] Resetting plugins due to page load.
+2015-03-21 12:10:37.405 Turnup[40369:894022] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-03-21 12:10:37.406 Turnup[40369:894022] Resetting plugins due to page load.
+2015-03-21 12:10:37.461 Turnup[40369:894022] Finished load of: http://192.168.1.239:8100/#/welcome?clear=true
+2015-03-21 12:11:10.624 Turnup[40832:900206] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/47A914AF-507B-4444-9FB8-6DF7E3568388/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:11:10.679 Turnup[40832:900206] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:11:10.680 Turnup[40832:900206] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:11:10.681 Turnup[40832:900206] Unlimited access to network resources
+2015-03-21 12:11:10.750 Turnup[40832:900206] [CDVTimer][keyboard] 0.054955ms
+2015-03-21 12:11:10.750 Turnup[40832:900206] [CDVTimer][TotalPluginStartup] 0.187993ms
+2015-03-21 12:11:10.807 Turnup[40832:900206] Resetting plugins due to page load.
+2015-03-21 12:11:10.934 Turnup[40832:900206] Finished load of: http://192.168.1.239:8100/
+2015-03-21 12:12:03.177 Turnup[40832:900206] Resetting plugins due to page load.
+2015-03-21 12:12:03.262 Turnup[40832:900206] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-21 12:12:07.174 Turnup[40832:900514] Terminating since there is no system app.
+2015-03-21 12:12:26.693 Turnup[41139:901899] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/4A5195A4-FF78-4AD4-A24C-7E563CFC5DF2/Library/Cookies/Cookies.binarycookies
+2015-03-21 12:12:26.746 Turnup[41139:901899] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-21 12:12:26.746 Turnup[41139:901899] Multi-tasking -> Device: YES, App: YES
+2015-03-21 12:12:26.747 Turnup[41139:901899] Unlimited access to network resources
+2015-03-21 12:12:26.815 Turnup[41139:901899] [CDVTimer][keyboard] 0.052035ms
+2015-03-21 12:12:26.815 Turnup[41139:901899] [CDVTimer][TotalPluginStartup] 0.186980ms
+2015-03-21 12:12:26.867 Turnup[41139:901899] Resetting plugins due to page load.
+2015-03-21 12:12:27.115 Turnup[41139:901899] Finished load of: http://192.168.1.239:8100/#/welcome

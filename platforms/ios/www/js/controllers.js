@@ -1,4 +1,4 @@
-angular.module('ionicParseApp.controllers', [])
+angular.module('Turnup.controllers', [])
 
 .controller('AppController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
     if ($stateParams.clear) {
@@ -17,10 +17,10 @@ angular.module('ionicParseApp.controllers', [])
 })
 
 .controller('WelcomeController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
-    if ($stateParams.clear) {
+    /*if ($stateParams.clear) {
         $ionicHistory.clearHistory();
         $ionicHistory.clearCache();
-    }
+    }*/
 
     $scope.login = function() {
         $state.go('app.login');
@@ -30,9 +30,9 @@ angular.module('ionicParseApp.controllers', [])
         $state.go('app.register');
     };
 
-    if ($rootScope.isLoggedIn) {
+    /*if ($rootScope.isLoggedIn) {
         $state.go('app.home');
-    }
+    } */
 })
 
 .controller('HomeController', function($scope, $state, $rootScope) {
@@ -186,9 +186,9 @@ angular.module('ionicParseApp.controllers', [])
             }
         });
     };
-})
+});
 
-.controller('MainController', function($scope, $state, $rootScope, $stateParams, $ionicHistory) {
+/*.controller('MainController', function($scope, $state, $rootScope, $stateParams, $ionicHistory) {
     if ($stateParams.clear) {
         $ionicHistory.clearHistory();
     }
@@ -213,4 +213,4 @@ angular.module('ionicParseApp.controllers', [])
     $scope.toggleMenu = function() {
         $scope.sideMenuController.toggleRight();
     };
-});
+});*/
