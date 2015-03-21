@@ -17,31 +17,31 @@ angular.module('Turnup.controllers', [])
     })
 
     .controller('WelcomeController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
-        /*if ($stateParams.clear) {
-         $ionicHistory.clearHistory();
-         $ionicHistory.clearCache();
-         }*/
+        if ($stateParams.clear) {
+            $ionicHistory.clearHistory();
+            $ionicHistory.clearCache();
+        }
 
         $scope.login = function() {
             $state.go('login');
         };
 
         $scope.signUp = function() {
-            $state.go('app.register');
+            $state.go('register');
         };
 
-        /*if ($rootScope.isLoggedIn) {
-         $state.go('app.home');
-         } */
+        if ($rootScope.isLoggedIn) {
+            $state.go('app.home');
+        }
     })
 
     .controller('HomeController', function($scope, $state, $rootScope) {
 
         $rootScope.toggledrag = true;
 
-        //if (!$rootScope.isLoggedIn) {
-        //  $state.go('welcome');
-        //}
+        if (!$rootScope.isLoggedIn) {
+            $state.go('welcome');
+        }
     })
 
     .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
@@ -102,7 +102,7 @@ angular.module('Turnup.controllers', [])
         };
 
         $scope.register = function() {
-            $state.go('app.register');
+            $state.go('register');
         };
     })
 
@@ -151,9 +151,13 @@ angular.module('Turnup.controllers', [])
         };
     })
 
-    .controller('RegisterController', function($scope, $state, $ionicLoading, $rootScope) {
+    .controller('RegisterController', function($scope, $state, $ionicLoading, $rootScope, $ionicHistory) {
         $scope.user = {};
         $scope.error = {};
+
+        $scope.myGoBack = function() {
+            $ionicHistory.goBack();
+        };
 
         $scope.register = function() {
 
@@ -196,31 +200,31 @@ angular.module('Turnup.controllers', [])
                 }
             });
         };
+    })
+
+    .controller('MainController', function($scope, $state, $rootScope, $stateParams, $ionicHistory) {
+        if ($stateParams.clear) {
+            $ionicHistory.clearHistory();
+        }
+
+        $scope.rightButtons = [{
+            type: 'button-positive',
+            content: '<i class="icon ion-navicon"></i>',
+            tap: function(e) {
+                $scope.sideMenuController.toggleRight();
+            }
+        }];
+
+        $scope.logout = function() {
+            Parse.User.logOut();
+            $rootScope.user = null;
+            $rootScope.isLoggedIn = false;
+            $state.go('welcome', {
+                clear: true
+            });
+        };
+
+        $scope.toggleMenu = function() {
+            $scope.sideMenuController.toggleRight();
+        };
     });
-
-/*.controller('MainController', function($scope, $state, $rootScope, $stateParams, $ionicHistory) {
- if ($stateParams.clear) {
- $ionicHistory.clearHistory();
- }
-
- $scope.rightButtons = [{
- type: 'button-positive',
- content: '<i class="icon ion-navicon"></i>',
- tap: function(e) {
- $scope.sideMenuController.toggleRight();
- }
- }];
-
- $scope.logout = function() {
- Parse.User.logOut();
- $rootScope.user = null;
- $rootScope.isLoggedIn = false;
- $state.go('welcome', {
- clear: true
- });
- };
-
- $scope.toggleMenu = function() {
- $scope.sideMenuController.toggleRight();
- };
- });*/

@@ -17,7 +17,7 @@ angular.module('Turnup',
 
             // setup an abstract state for the tabs directive
             .state('welcome', {
-                url: '/welcome',
+                url: '/welcome?clear',
                 templateUrl: 'templates/welcome.html',
                 controller: 'WelcomeController',
                 data: {
@@ -26,7 +26,7 @@ angular.module('Turnup',
             })
 
             .state('login', {
-                url: '/login',
+                url: '/login?clear',
                 templateUrl: 'templates/login.html',
                 controller: 'LoginController',
                 data: {
@@ -38,6 +38,15 @@ angular.module('Turnup',
                 url: '/forgot',
                 templateUrl: 'templates/forgotPassword.html',
                 controller: 'ForgotPasswordController',
+                data: {
+                    authenticate: false
+                }
+            })
+
+            .state('register', {
+                url: '/register',
+                templateUrl: 'templates/register.html',
+                controller: 'RegisterController',
                 data: {
                     authenticate: false
                 }
@@ -56,16 +65,6 @@ angular.module('Turnup',
                     'menuContent': {
                         templateUrl: 'templates/home.html',
                         controller: 'HomeController'
-                    }
-                }
-            })
-
-            .state('app.register', {
-                url: '/register',
-                views: {
-                    'menuContent': {
-                        templateUrl: 'templates/register.html',
-                        controller: 'RegisterController'
                     }
                 }
             });

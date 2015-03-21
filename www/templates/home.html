@@ -1,5 +1,33 @@
-<ion-view title="Running 4 Beer">
+<ion-view title="Turnup">
     <ion-content has-header="true" has-tabs="true" padding="true">
+
+
+
+        <my-tabs>
+            <my-tab title="Email">
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="email" placeholder="Email" name="user_email" ng-model="user.email" required>
+                    </label>
+                    <label class="item item-input">
+                        <input type="password" placeholder="Password" name="user_password" ng-model="user.password" required show-hide>
+                    </label>
+                </div>
+            </my-tab>
+            <my-tab title="Phone">
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="text" placeholder="Phone number" name="user_phone" ng-model="user.phone" required>
+                    </label>
+                    <label class="item item-input">
+                        <input type="password" placeholder="PIN" name="user_pin" ng-model="user.pin" required valid-pin="user.pin" show-hide>
+                    </label>
+                </div>
+            </my-tab>
+        </my-tabs>
+
         {{user.attributes.email}}
+
+
     </ion-content>
 </ion-view>
