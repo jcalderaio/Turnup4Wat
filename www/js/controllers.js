@@ -37,9 +37,11 @@ angular.module('ionicParseApp.controllers', [])
 
 .controller('HomeController', function($scope, $state, $rootScope) {
 
-    if (!$rootScope.isLoggedIn) {
-        $state.go('welcome');
-    }
+        $rootScope.toggledrag = true;
+
+    //if (!$rootScope.isLoggedIn) {
+      //  $state.go('welcome');
+    //}
 })
 
 .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
