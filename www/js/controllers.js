@@ -1,221 +1,226 @@
 angular.module('Turnup.controllers', [])
 
-.controller('AppController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
-    if ($stateParams.clear) {
-        $ionicHistory.clearHistory();
-        $ionicHistory.clearCache();
-    }
+    .controller('AppController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
+        if ($stateParams.clear) {
+            $ionicHistory.clearHistory();
+            $ionicHistory.clearCache();
+        }
 
-    $scope.logout = function() {
-        Parse.User.logOut();
-        $rootScope.user = null;
-        $rootScope.isLoggedIn = false;
-        $state.go('welcome', {
-            clear: true
-        });
-    };
-})
+        $scope.logout = function() {
+            Parse.User.logOut();
+            $rootScope.user = null;
+            $rootScope.isLoggedIn = false;
+            $state.go('welcome', {
+                clear: true
+            });
+        };
+    })
 
-.controller('WelcomeController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
-    /*if ($stateParams.clear) {
-        $ionicHistory.clearHistory();
-        $ionicHistory.clearCache();
-    }*/
+    .controller('WelcomeController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
+        /*if ($stateParams.clear) {
+         $ionicHistory.clearHistory();
+         $ionicHistory.clearCache();
+         }*/
 
-    $scope.login = function() {
-        $state.go('login');
-    };
+        $scope.login = function() {
+            $state.go('login');
+        };
 
-    $scope.signUp = function() {
-        $state.go('app.register');
-    };
+        $scope.signUp = function() {
+            $state.go('app.register');
+        };
 
-    /*if ($rootScope.isLoggedIn) {
-        $state.go('app.home');
-    } */
-})
+        /*if ($rootScope.isLoggedIn) {
+         $state.go('app.home');
+         } */
+    })
 
-.controller('HomeController', function($scope, $state, $rootScope) {
+    .controller('HomeController', function($scope, $state, $rootScope) {
 
         $rootScope.toggledrag = true;
 
-    //if (!$rootScope.isLoggedIn) {
-      //  $state.go('welcome');
-    //}
-})
+        //if (!$rootScope.isLoggedIn) {
+        //  $state.go('welcome');
+        //}
+    })
 
-.controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
-    $scope.user = {
-        username: null,
-        password: null
-    };
-
-        /*$scope.myGoBack = function() {
-            $ionicHistory.goBack();
-        };*/
-
+    .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
+        $scope.user = {
+            username: null,
+            password: null
+        };
 
         $scope.myGoBack = function() {
             $state.go('welcome');
         };
 
-    $scope.error = {};
+        //CAN USE $IONICHISTORY TO GO BACK AS WELL
+
+        /*$scope.myGoBack = function() {
+         $ionicHistory.goBack();
+         };*/
+
+        $scope.error = {};
 
         $rootScope.toggledrag = false;   //Set this in all the controllers you want to have enabled/disabled drag
 
-    $scope.login = function() {
-        $scope.loading = $ionicLoading.show({
-            content: 'Logging in',
-            animation: 'fade-in',
-            showBackdrop: true,
-            maxWidth: 200,
-            showDelay: 0
-        });
+        $scope.login = function() {
+            $scope.loading = $ionicLoading.show({
+                content: 'Logging in',
+                animation: 'fade-in',
+                showBackdrop: true,
+                maxWidth: 200,
+                showDelay: 0
+            });
 
-        var user = $scope.user;
-        Parse.User.logIn(('' + user.username).toLowerCase(), user.password, {
-            success: function(user) {
-                $ionicLoading.hide();
-                $rootScope.user = user;
-                $rootScope.isLoggedIn = true;
-                $state.go('app.home', {
-                    clear: true
-                });
-            },
-            error: function(user, err) {
-                $ionicLoading.hide();
-                // The login failed. Check error to see why.
-                if (err.code === 101) {
-                    $scope.error.message = 'Invalid login credentials';
-                } else {
-                    $scope.error.message = 'An unexpected error has ' +
+            var user = $scope.user;
+            Parse.User.logIn(('' + user.username).toLowerCase(), user.password, {
+                success: function(user) {
+                    $ionicLoading.hide();
+                    $rootScope.user = user;
+                    $rootScope.isLoggedIn = true;
+                    $state.go('app.home', {
+                        clear: true
+                    });
+                },
+                error: function(user, err) {
+                    $ionicLoading.hide();
+                    // The login failed. Check error to see why.
+                    if (err.code === 101) {
+                        $scope.error.message = 'Invalid login credentials';
+                    } else {
+                        $scope.error.message = 'An unexpected error has ' +
                         'occurred, please try again.';
+                    }
+                    $scope.$apply();
                 }
-                $scope.$apply();
-            }
-        });
-    };
+            });
+        };
 
-    $scope.forgot = function() {
-        $state.go('app.forgot');
-    };
+        $scope.forgot = function() {
+            $state.go('forgot');
+        };
 
         $scope.register = function() {
             $state.go('app.register');
         };
-})
+    })
 
-.controller('ForgotPasswordController', function($scope, $state, $ionicLoading) {
-    $scope.user = {};
-    $scope.error = {};
-    $scope.state = {
-        success: false
-    };
+    .controller('ForgotPasswordController', function($scope, $state, $ionicLoading) {
+        $scope.user = {};
+        $scope.error = {};
+        $scope.state = {
+            success: false
+        };
 
-    $scope.reset = function() {
-        $scope.loading = $ionicLoading.show({
-            content: 'Sending',
-            animation: 'fade-in',
-            showBackdrop: true,
-            maxWidth: 200,
-            showDelay: 0
-        });
+        $scope.reset = function() {
+            $scope.loading = $ionicLoading.show({
+                content: 'Sending',
+                animation: 'fade-in',
+                showBackdrop: true,
+                maxWidth: 200,
+                showDelay: 0
+            });
 
-        Parse.User.requestPasswordReset($scope.user.email, {
-            success: function() {
-                // TODO: show success
-                $ionicLoading.hide();
-                $scope.state.success = true;
-                $scope.$apply();
-            },
-            error: function(err) {
-                $ionicLoading.hide();
-                if (err.code === 125) {
-                    $scope.error.message = 'Email address does not exist';
-                } else {
-                    $scope.error.message = 'An unknown error has occurred, ' +
+            Parse.User.requestPasswordReset($scope.user.email, {
+                success: function() {
+                    // TODO: show success
+                    $ionicLoading.hide();
+                    $scope.state.success = true;
+                    $scope.$apply();
+                },
+                error: function(err) {
+                    $ionicLoading.hide();
+                    if (err.code === 125) {
+                        $scope.error.message = 'Email address does not exist';
+                    } else {
+                        $scope.error.message = 'An unknown error has occurred, ' +
                         'please try again';
+                    }
+                    $scope.$apply();
                 }
-                $scope.$apply();
-            }
-        });
-    };
+            });
+        };
 
-    $scope.login = function() {
-        $state.go('login');
-    };
-})
+        $scope.login = function() {
+            $state.go('login');
+        };
 
-.controller('RegisterController', function($scope, $state, $ionicLoading, $rootScope) {
-    $scope.user = {};
-    $scope.error = {};
+        $scope.myGoBack = function() {
+            $state.go('login');
+        };
+    })
 
-    $scope.register = function() {
+    .controller('RegisterController', function($scope, $state, $ionicLoading, $rootScope) {
+        $scope.user = {};
+        $scope.error = {};
 
-        // TODO: add age verification step
+        $scope.register = function() {
 
-        $scope.loading = $ionicLoading.show({
-            content: 'Sending',
-            animation: 'fade-in',
-            showBackdrop: true,
-            maxWidth: 200,
-            showDelay: 0
-        });
+            // TODO: add age verification step
 
-        var user = new Parse.User();
-        user.set("username", $scope.user.email);
-        user.set("password", $scope.user.password);
-        user.set("email", $scope.user.email);
+            $scope.loading = $ionicLoading.show({
+                content: 'Sending',
+                animation: 'fade-in',
+                showBackdrop: true,
+                maxWidth: 200,
+                showDelay: 0
+            });
 
-        user.signUp(null, {
-            success: function(user) {
-                $ionicLoading.hide();
-                $rootScope.user = user;
-                $rootScope.isLoggedIn = true;
-                $state.go('app.home', {
-                    clear: true
-                });
-            },
-            error: function(user, error) {
-                $ionicLoading.hide();
-                if (error.code === 125) {
-                    $scope.error.message = 'Please specify a valid email ' +
+            var user = new Parse.User();
+            user.set("username", $scope.user.email);
+            user.set("password", $scope.user.password);
+            user.set("email", $scope.user.email);
+
+            user.signUp(null, {
+                success: function(user) {
+                    $ionicLoading.hide();
+                    $rootScope.user = user;
+                    $rootScope.isLoggedIn = true;
+                    $state.go('app.home', {
+                        clear: true
+                    });
+                },
+                error: function(user, error) {
+                    $ionicLoading.hide();
+                    if (error.code === 125) {
+                        $scope.error.message = 'Please specify a valid email ' +
                         'address';
-                } else if (error.code === 202) {
-                    $scope.error.message = 'The email address is already ' +
+                    } else if (error.code === 202) {
+                        $scope.error.message = 'The email address is already ' +
                         'registered';
-                } else {
-                    $scope.error.message = error.message;
+                    } else {
+                        $scope.error.message = error.message;
+                    }
+                    $scope.$apply();
                 }
-                $scope.$apply();
-            }
-        });
-    };
-});
+            });
+        };
+    });
 
 /*.controller('MainController', function($scope, $state, $rootScope, $stateParams, $ionicHistory) {
-    if ($stateParams.clear) {
-        $ionicHistory.clearHistory();
-    }
+ if ($stateParams.clear) {
+ $ionicHistory.clearHistory();
+ }
 
-    $scope.rightButtons = [{
-        type: 'button-positive',
-        content: '<i class="icon ion-navicon"></i>',
-        tap: function(e) {
-            $scope.sideMenuController.toggleRight();
-        }
-    }];
+ $scope.rightButtons = [{
+ type: 'button-positive',
+ content: '<i class="icon ion-navicon"></i>',
+ tap: function(e) {
+ $scope.sideMenuController.toggleRight();
+ }
+ }];
 
-    $scope.logout = function() {
-        Parse.User.logOut();
-        $rootScope.user = null;
-        $rootScope.isLoggedIn = false;
-        $state.go('welcome', {
-            clear: true
-        });
-    };
+ $scope.logout = function() {
+ Parse.User.logOut();
+ $rootScope.user = null;
+ $rootScope.isLoggedIn = false;
+ $state.go('welcome', {
+ clear: true
+ });
+ };
 
-    $scope.toggleMenu = function() {
-        $scope.sideMenuController.toggleRight();
-    };
-});*/
+ $scope.toggleMenu = function() {
+ $scope.sideMenuController.toggleRight();
+ };
+ });*/

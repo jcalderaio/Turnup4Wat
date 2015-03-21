@@ -5,8 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 // 'ionicParseApp.controllers' is found in controllers.js
 angular.module('Turnup',
-        [ 'ionic', 'Turnup.controllers' ]
-    )
+    [ 'ionic', 'Turnup.controllers' ]
+)
     .config(function($stateProvider, $urlRouterProvider) {
 
         // Ionic uses AngularUI Router which uses the concept of states
@@ -34,6 +34,15 @@ angular.module('Turnup',
                 }
             })
 
+            .state('forgot', {
+                url: '/forgot',
+                templateUrl: 'templates/forgotPassword.html',
+                controller: 'ForgotPasswordController',
+                data: {
+                    authenticate: false
+                }
+            })
+
             .state('app', {
                 url: '/app?clear',
                 abstract: true,
@@ -47,16 +56,6 @@ angular.module('Turnup',
                     'menuContent': {
                         templateUrl: 'templates/home.html',
                         controller: 'HomeController'
-                    }
-                }
-            })
-
-            .state('app.forgot', {
-                url: '/forgot',
-                views: {
-                    'menuContent': {
-                        templateUrl: 'templates/forgotPassword.html',
-                        controller: 'ForgotPasswordController'
                     }
                 }
             })

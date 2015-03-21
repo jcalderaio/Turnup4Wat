@@ -17,7 +17,7 @@
  under the License.
  */
 //
-// Prefix header for all source files of the 'StarterApp' target in the 'StarterApp' project
+// Prefix header for all source files of the 'Turnup' target in the 'Turnup' project
 //
 
 #ifdef __OBJC__
