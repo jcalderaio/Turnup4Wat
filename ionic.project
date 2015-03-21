@@ -1,5 +1,5 @@
 {
-  "name": "ionic-parse-starter",
+  "name": "Turnup",
   "app_id": "98ed103a",
   "gulpStartupTasks": [
     "sass",
