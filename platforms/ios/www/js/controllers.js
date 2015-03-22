@@ -37,11 +37,11 @@ angular.module('Turnup.controllers', [])
 
     .controller('HomeController', function($scope, $state, $rootScope) {
 
-        $rootScope.toggledrag = true;
+        //$rootScope.toggledrag = true;
 
-        if (!$rootScope.isLoggedIn) {
-            $state.go('welcome');
-        }
+        //if (!$rootScope.isLoggedIn) {
+          //  $state.go('welcome');
+        // }
     })
 
     .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
@@ -62,7 +62,7 @@ angular.module('Turnup.controllers', [])
 
         $scope.error = {};
 
-        $rootScope.toggledrag = false;   //Set this in all the controllers you want to have enabled/disabled drag
+        //$rootScope.toggledrag = false;   //Set this in all the controllers you want to have enabled/disabled drag
 
         $scope.login = function() {
             $scope.loading = $ionicLoading.show({
@@ -225,6 +225,6 @@ angular.module('Turnup.controllers', [])
         };
 
         $scope.toggleMenu = function() {
-            $scope.sideMenuController.toggleRight();
+            $scope.sideMenuController.rRight();
         };
     });

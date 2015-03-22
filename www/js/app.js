@@ -69,6 +69,7 @@ angular.module('Turnup',
                 }
             });
 
+
         $urlRouterProvider.otherwise('/welcome');
     })
     .run(function ($state, $rootScope) {

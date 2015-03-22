@@ -39,9 +39,9 @@ angular.module('Turnup.controllers', [])
 
         //$rootScope.toggledrag = true;
 
-        if (!$rootScope.isLoggedIn) {
-            $state.go('welcome');
-        }
+        //if (!$rootScope.isLoggedIn) {
+          //  $state.go('welcome');
+        // }
     })
 
     .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {

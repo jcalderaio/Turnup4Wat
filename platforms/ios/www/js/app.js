@@ -35,7 +35,7 @@ angular.module('Turnup',
             })
 
             .state('forgot', {
-                url: '/forgot',
+                url: '/forgot?clear',
                 templateUrl: 'templates/forgotPassword.html',
                 controller: 'ForgotPasswordController',
                 data: {
@@ -44,7 +44,7 @@ angular.module('Turnup',
             })
 
             .state('register', {
-                url: '/register',
+                url: '/register?clear',
                 templateUrl: 'templates/register.html',
                 controller: 'RegisterController',
                 data: {
@@ -68,6 +68,7 @@ angular.module('Turnup',
                     }
                 }
             });
+
 
         $urlRouterProvider.otherwise('/welcome');
     })
