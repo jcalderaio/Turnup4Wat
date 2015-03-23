@@ -89,6 +89,16 @@ angular.module('Turnup',
                 }
             })
 
+            .state('app.newParty', {
+                url: '/newParty',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/newParty.html',
+                        controller: 'NewPartyController'
+                    }
+                }
+            })
+
 
         $urlRouterProvider.otherwise('/welcome');
     })

@@ -69,12 +69,52 @@ angular.module('Turnup.controllers', [])
             maxAttendance: 20
         };
 
+
+
+        $scope.party = function(title, startDate, endDate, location, description, picture, friendsCount, attendanceCount, maxAttendance) {
+            this.title = title;
+
+        };
+
+
+    })
+
+    .controller('NewPartyController', function($scope, $state, $rootScope) {
+
+        $scope.myParty = {
+            title: 'My Party',
+            date: new Date(),
+            location: '123 St N',
+            description: 'My party\'s description.',
+            startTime: new Date(),
+            endTime: new Date(),
+            picture: 'http://static.giantbomb.com/uploads/original/2/27545/1025596-star_carnival.jpg',
+            friendsCount: 0,
+            attendanceCount: 0,
+            maxAttendance: 20
+        };
+
+        $scope.createNewParty = function() {
+            var party = new Parse.Party();
+            $party.set("title", $scope.party.title);
+            $party.set("startDate", $scope.party.startDate);
+            $party.set("endDate", $scope.party.endDate);
+            $party.set("location", $scope.party.location);
+            $party.set("picture", $scope.party.picture);
+            $party.set("friendsCount", $scope.party.friendsCount);
+            $party.set("attendanceCount", $scope.party.attendanceCount);
+            $party.set("maxAttendance", $scope.party.maxAttendance);
+        };
+
     })
 
     .controller('SettingsController', function($scope, $state, $rootScope) {
 
         $scope.mySettings = {
             /*Local variables for user settings will go here*/
+            searchDistance: 10,
+            maxCost: 5,
+            shareAttendance: true
         };
 
     })
