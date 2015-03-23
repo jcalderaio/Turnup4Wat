@@ -10862,3 +10862,5 @@
 
   ]
 ]
+2015-03-23 01:52:34.810 Turnup[15718:267130] Resetting plugins due to page load.
+2015-03-23 01:52:36.420 Turnup[15718:267130] Finished load of: http://192.168.1.183:8100/#/app/partyEdit
