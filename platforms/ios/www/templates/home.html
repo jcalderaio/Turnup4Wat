@@ -1,4 +1,4 @@
-<ion-view>
+<ion-view title="Attend">
 
 
 
@@ -8,7 +8,7 @@
     <!-- Attend Tab ------------------------------------------------------------>
 
     <ion-tabs class="tabs-energized tabs-icon-top">
-        <ion-tab title="Attend" icon="ion-ios-game-controller-b" ng-click="setNavTitle('Attend')">
+        <ion-tab title="Attend" icon="ion-ios-game-controller-b" on-select="setNavTitle('Attend')">
             <ion-content padding="true" has-tabs="true" scroll="true">
                 <!--Attend Content -->
                 <!--a smash bros tournament-->
@@ -90,7 +90,7 @@
 
 
         <!-- Host Tab ------------------------------------------------------------>
-        <ion-tab title="Host" icon="ion-ios-home">
+        <ion-tab title="Host" icon="ion-ios-home" on-select="setNavTitle('Host')">
             <ion-content padding="true">
                 <!--Host Content -->
                 <div class="list card">

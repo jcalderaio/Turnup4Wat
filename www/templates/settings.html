@@ -1,10 +1,61 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+<ion-view>
+    <!--back button workaround, John fix pls-->
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-ios-arrow-back" ui-sref="app.home">
+            Back
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="list">
+            <div class="item item-divider">
+                Search
+            </div>
+                <a class="item item-icon-right">
+                    Clear history
+                <i class="icon ion-trash-a"></i>
+            </a>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Distance
+                </div>
+                <select>
+                    <option>1 mile</option>
+                    <option>3 miles</option>
+                    <option>5 miles</option>
+                    <option>10 miles</option>
+                    <option>25 miles</option>
+                    <option>50 miles</option>
+                    <option>100 miles</option>
+                    <option>unlimited</option>
+                </select>
+            </label>
 
-</body>
-</html>
+            <!--<button class="button button-light">
+                Blacklist
+            </button>-->
+
+            <div class="item item-divider">
+                Privacy
+            </div>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Hosted parties shown to
+                </div>
+                <select>
+                    <option>Everyone</option>
+                    <option>Friends of friends</option>
+                    <option>Friends</option>
+                </select>
+            </label>
+            <li class="item item-toggle">
+                Share parties I'm attending
+                <label class="toggle toggle-energized">
+                    <input type="checkbox">
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </li>
+        </div>
+    </ion-content>
+</ion-view>

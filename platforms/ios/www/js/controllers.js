@@ -71,6 +71,14 @@ angular.module('Turnup.controllers', [])
 
     })
 
+    .controller('SettingsController', function($scope, $state, $rootScope) {
+
+        $scope.mySettings = {
+            /*Local variables for user settings will go here*/
+        };
+
+    })
+
     .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
         $scope.user = {
             username: null,

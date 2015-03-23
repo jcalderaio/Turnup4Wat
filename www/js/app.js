@@ -77,7 +77,17 @@ angular.module('Turnup',
                         controller: 'PartyEditController'
                     }
                 }
-            });
+            })
+
+            .state('app.settings', {
+                url: '/settings',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/settings.html',
+                        controller: 'SettingsController'
+                    }
+                }
+            })
 
 
         $urlRouterProvider.otherwise('/welcome');
