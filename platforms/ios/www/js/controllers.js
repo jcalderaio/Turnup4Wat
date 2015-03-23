@@ -37,11 +37,24 @@ angular.module('Turnup.controllers', [])
 
     .controller('HomeController', function($scope, $state, $rootScope) {
 
+        $scope.goToPartyEdit = function() {
+            $state.go('app.partyEdit');
+        };
+
         //$rootScope.toggledrag = true;
 
         //if (!$rootScope.isLoggedIn) {
           //  $state.go('welcome');
         // }
+    })
+
+    .controller('PartyEditController', function($scope, $state, $rootScope) {
+
+        $scope.myGoBack = function() {
+           $ionicHistory.goBack();
+        };
+
+
     })
 
     .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {

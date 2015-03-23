@@ -67,6 +67,16 @@ angular.module('Turnup',
                         controller: 'HomeController'
                     }
                 }
+            })
+
+            .state('app.partyEdit', {
+                url: '/partyEdit',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/partyEdit.html',
+                        controller: 'PartyEditController'
+                    }
+                }
             });
 
 

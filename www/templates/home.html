@@ -1,10 +1,17 @@
 <ion-view>
 
 
+
+
+
+
+    <!-- Attend Tab ------------------------------------------------------------>
+
     <ion-tabs class="tabs-energized tabs-icon-top">
         <ion-tab title="Attend" icon="ion-ios-game-controller-b">
             <ion-content padding="true" has-tabs="true" scroll="true">
                 <!--Attend Content -->
+                <!--a smash bros tournament-->
                 <div class="list card">
                     <div class="item item-avatar">
                         <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
@@ -38,9 +45,51 @@
                         </a>
                     </div>
                 </div>
+
+                <!--user's party-->
+                <div class="list card">
+                    <div class="item item-avatar">
+                        <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
+                        <h2>{{myParty.title}}</h2>
+                        <p>{{myParty.date.toLocaleDateString()}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
+                    </div>
+
+                    <div class="item item-body">
+                        <img class="full-image" src="{{myParty.picture}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
+                        <p>
+                            {{myParty.description}}
+                        </p>
+                        <p>
+                            <a href="#" class="subdued">{{myParty.friendsCount}} friends going</a>
+                            <a href="#" class="subdued">{{myParty.attendanceCount}}/{{myParty.maxAttendance}} spots taken</a>
+                        </p>
+                    </div>
+
+                    <div class="item tabs tabs-secondary tabs-icon-left">
+                        <a class="tab-item" href="#">
+                            <i class="icon ion-checkmark"></i>
+                            Attend
+                        </a>
+                        <a class="tab-item" href="#">
+                            <i class="icon ion-information-circled"></i>
+                            More info
+                        </a>
+                        <a class="tab-item" href="#">
+                            <i class="icon ion-close"></i>
+                            Hide
+                        </a>
+                    </div>
+                </div>
+                <!--end user's party-->
             </ion-content>
         </ion-tab>
 
+
+
+
+
+
+        <!-- Host Tab ------------------------------------------------------------>
         <ion-tab title="Host" icon="ion-ios-home">
             <ion-content padding="true">
                 <!--Host Content -->
@@ -63,15 +112,15 @@
                     </div>
 
                     <div class="item tabs tabs-secondary tabs-icon-left">
-                        <a class="tab-item" href="#">
+                        <a class="tab-item">
                             <i class="icon ion-person-stalker"></i>
                             Attendees
                         </a>
-                        <a class="tab-item" href="#">
+                        <a class="tab-item">
                             <i class="icon ion-information-circled"></i>
                             More info
                         </a>
-                        <a class="tab-item" href="#">
+                        <a class="tab-item" ng-click="goToPartyEdit()">
                             <i class="icon ion-edit"></i>
                             Edit
                         </a>
@@ -105,15 +154,25 @@
                             <i class="icon ion-information-circled"></i>
                             More info
                         </a>
-                        <a class="tab-item" href="#">
+                        <a class="tab-item" href="#" ui-sref="app.partyEdit">
+                            <ion-nav-view name="partyEdit"></ion-nav-view>
                             <i class="icon ion-edit"></i>
                             Edit
                         </a>
                     </div>
                 </div>
+                <button class="button button-block button-energized"> Hi </button>
             </ion-content>
+
         </ion-tab>
     </ion-tabs>
+
+
+
+
+
+
+
 
 
 </ion-view>
