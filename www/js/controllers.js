@@ -35,17 +35,19 @@ angular.module('Turnup.controllers', [])
         }
     })
 
-    .controller('HomeController', function($scope, $state, $rootScope) {
+    .controller('HomeController', function($scope, $state, $rootScope, $ionicNavBarDelegate) {
 
         $scope.goToPartyEdit = function() {
             $state.go('app.partyEdit');
         };
 
-        //$rootScope.toggledrag = true;
+        $scope.setNavTitle = function(title) {
+            $ionicNavBarDelegate.title(title);
+        };
 
-        //if (!$rootScope.isLoggedIn) {
-          //  $state.go('welcome');
-        // }
+        if (!$rootScope.isLoggedIn) {
+            $state.go('welcome');
+        }
     })
 
     .controller('PartyEditController', function($scope, $state, $rootScope) {

@@ -2,13 +2,36 @@
 
 <ion-view title="Party Edit">
     <ion-nav-buttons side="left">
-        <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="myGoBack()">
+        <button class="button button-icon button-clear ion-ios-arrow-back" ui-sref="app.home">
             Back
         </button>
     </ion-nav-buttons>
     <ion-content>
+        <!--this is a card designed to display a demo of what their party listing will look like-->
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
+                <h2>{{myParty.title}}</h2>
+                <p>{{myParty.date.toLocaleDateString()}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
+            </div>
+
+            <div class="item item-body">
+                <img class="full-image" src="{{myParty.picture}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
+                <p>
+                     {{myParty.description}}
+                </p>
+                <p>
+                    <a href="#" class="subdued">{{myParty.friendsCount}} friends going</a>
+                    <a href="#" class="subdued">{{myParty.attendanceCount}}/{{myParty.maxAttendance}} spots taken</a>
+                </p>
+            </div>
+        </div>
+        <!--end demo card-->
+
+
+        <!--user input section-->
         <div class="row">
-            <div class="col" .col-67>
+            <div class="col  col-67">
                 <div class="list">
                     <label class="item item-input">
                         <input type="text" maxlength="23" placeholder="Title">
@@ -18,9 +41,24 @@
             <div class="col">
                 <div class="list">
                     <label class="item item-input">
-                        <input type="date" value="2015-03-22">
+                        <input type="datetime">
                     </label>
                 </div>
+            </div>
+        </div>
+        <!--end 1st row, begin 2nd row-->
+        <div class="row">
+            <div class="col">
+                <label class="item item-input">
+                    <input type="text" maxlength="30" placeholder="Location">
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label class="item item-input">
+                    <textarea placeholder="Description"></textarea>
+                </label>
             </div>
         </div>
 

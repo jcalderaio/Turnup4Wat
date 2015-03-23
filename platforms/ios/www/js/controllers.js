@@ -35,17 +35,19 @@ angular.module('Turnup.controllers', [])
         }
     })
 
-    .controller('HomeController', function($scope, $state, $rootScope) {
+    .controller('HomeController', function($scope, $state, $rootScope, $ionicNavBarDelegate) {
 
         $scope.goToPartyEdit = function() {
             $state.go('app.partyEdit');
         };
 
-        //$rootScope.toggledrag = true;
+        $scope.setNavTitle = function(title) {
+            $ionicNavBarDelegate.title(title);
+        };
 
-        //if (!$rootScope.isLoggedIn) {
-          //  $state.go('welcome');
-        // }
+        if (!$rootScope.isLoggedIn) {
+            $state.go('welcome');
+        }
     })
 
     .controller('PartyEditController', function($scope, $state, $rootScope) {
@@ -54,6 +56,18 @@ angular.module('Turnup.controllers', [])
            $ionicHistory.goBack();
         };
 
+        $scope.myParty = {
+            title: 'My Party',
+            date: new Date(),
+            location: '123 St N',
+            description: 'My party\'s description.',
+            startTime: new Date(),
+            endTime: new Date(),
+            picture: 'http://static.giantbomb.com/uploads/original/2/27545/1025596-star_carnival.jpg',
+            friendsCount: 0,
+            attendanceCount: 0,
+            maxAttendance: 20
+        };
 
     })
 
