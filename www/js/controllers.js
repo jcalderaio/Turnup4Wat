@@ -82,14 +82,16 @@ angular.module('Turnup.controllers', [])
     .controller('NewPartyController', function($scope, $state, $ionicLoading, $rootScope, $ionicPopup, $ionicHistory) {
 
         $scope.newParty = {
+            user: null,
             title: null,
             date: null,
             location: null,
             description: null,
+            attendanceCount: null,
             maxAttendance: null
         };
-        $scope.error = {};
 
+        $scope.error = {};
 
         $scope.addParty = function() {
 
@@ -110,6 +112,7 @@ angular.module('Turnup.controllers', [])
                 date: $scope.newParty.date,
                 location: $scope.newParty.location,
                 description: $scope.newParty.description,
+                attendanceCount: 0,
                 maxAttendance: $scope.newParty.maxAttendance
             }, {
                 success: function(party) {
@@ -120,7 +123,6 @@ angular.module('Turnup.controllers', [])
                     $ionicLoading.hide();
                     $scope.error.message = "Oops! An error occurred! Try adding party again.";
                     $scope.$apply();
-
                 }
             });
 

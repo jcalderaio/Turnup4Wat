@@ -79,64 +79,66 @@ angular.module('Turnup.controllers', [])
 
     })
 
-    .controller('NewPartyController', function($scope, $state, $ionicLoading, $rootScope, $ionicHistory) {
+    .controller('NewPartyController', function($scope, $state, $ionicLoading, $rootScope, $ionicPopup, $ionicHistory) {
 
         $scope.newParty = {
+            user: null,
             title: null,
             date: null,
             location: null,
             description: null,
+            attendanceCount: null,
             maxAttendance: null
         };
+
         $scope.error = {};
 
-
         $scope.addParty = function() {
+
+            $scope.loading = $ionicLoading.show({
+                content: 'Adding Party',
+                animation: 'fade-in',
+                showBackdrop: true,
+                maxWidth: 200,
+                showDelay: 0
+            });
 
             var Party = Parse.Object.extend("Party");
             var party = new Party();
 
             party.save({
+                user: $rootScope.user.username.toString(),
                 title: $scope.newParty.title,
                 date: $scope.newParty.date,
                 location: $scope.newParty.location,
                 description: $scope.newParty.description,
+                attendanceCount: 0,
                 maxAttendance: $scope.newParty.maxAttendance
             }, {
                 success: function(party) {
-                    $state.go('app.home');
+                    $ionicLoading.hide();
+                    $scope.showAlert();
                 },
                 error: function(party, error) {
-                    // The save failed.
-                    // error is a Parse.Error with an error code and message.
-                    $state.go('welcome');
+                    $ionicLoading.hide();
+                    $scope.error.message = "Oops! An error occurred! Try adding party again.";
+                    $scope.$apply();
                 }
             });
 
 
-            /*
-            var Party = Parse.Object.extend("Party");
-            var party = new Party();
+        };
 
-            party.set("title", $scope.title);
-            party.set("date", $scope.date);
-            party.set("location", $scope.location);
-            party.set("description", $scope.description);
-            party.set("maxAttendance", $scope.maxAttendance);
-
-
-            party.save(null, {
-                success: function(party) {
-                    // Execute any logic that should take place after the object is saved.
-                    $state.go('app.home');
-                },
-                error: function(party, error) {
-                    // Execute any logic that should take place if the save fails.
-                    // error is a Parse.Error with an error code and message.
-                    $state.go('welcome');
-                }
+        $scope.showAlert = function() {
+            var alertPopup = $ionicPopup.alert({
+                title: 'Party added!',
+                template: 'Lets look for more parties!'
             });
-            */
+            alertPopup.then(function(res) {
+                $state.go('app.home', {
+                    clear: true
+                });
+            });
         };
 
     })
