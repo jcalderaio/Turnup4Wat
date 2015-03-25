@@ -48,6 +48,8 @@ angular.module('Turnup.controllers', [])
         if (!$rootScope.isLoggedIn) {
             $state.go('welcome');
         }
+
+
     })
 
     .controller('PartyEditController', function($scope, $state, $rootScope) {
@@ -88,7 +90,7 @@ angular.module('Turnup.controllers', [])
             location: null,
             description: null,
             attendanceCount: null,
-            maxAttendance: null
+            maxAttendance: 1
         };
 
         $scope.error = {};

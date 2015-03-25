@@ -6,43 +6,9 @@
         <ion-tab title="Attend" icon="ion-ios-game-controller-b" on-select="setNavTitle('Attend')">
             <ion-content padding="true" has-tabs="true" scroll="true">
                 <!--Attend Content -->
-                <!--a smash bros tournament-->
-                <div class="list card">
-                    <div class="item item-avatar">
-                        <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
-                        <h2>Smash Bros Tournament</h2>
-                        <p>Friday, April 3rd</p>
-                    </div>
-
-                    <div class="item item-body">
-                        <img class="full-image" src="http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/article_main_half/public/images/83640.jpg?itok=DME5UAPw">
-                        <p>
-                            Hey guys, I'm throwing a Smash Bros Tournament on Friday, April 3rd. Players of all skill levels welcome, we do our best to maintain a friendly and welcoming atmosphere. There will be a cash prize, $100, and a $5 entrance fee, but we'll have plenty of practice and just for fun rounds too.
-                        </p>
-                        <p>
-                            <a href="#" class="subdued">2 friends going</a>
-                            <a href="#" class="subdued">20/50 spots taken</a>
-                        </p>
-                    </div>
-
-                    <div class="item tabs tabs-secondary tabs-icon-left">
-                        <a class="tab-item" href="#">
-                            <i class="icon ion-checkmark"></i>
-                            Attend
-                        </a>
-                        <a class="tab-item" href="#">
-                            <i class="icon ion-information-circled"></i>
-                            More info
-                        </a>
-                        <a class="tab-item" href="#">
-                            <i class="icon ion-close"></i>
-                            Hide
-                        </a>
-                    </div>
-                </div>
 
                 <!--user's party-->
-                <div class="list card">
+                <div class="list card" collection-repeat="party in parties">
                     <div class="item item-avatar">
                         <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
                         <h2>{{myParty.title}}</h2>
