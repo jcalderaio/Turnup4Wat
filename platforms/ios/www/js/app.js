@@ -97,7 +97,7 @@ angular.module('Turnup',
                         controller: 'NewPartyController'
                     }
                 }
-            })
+            });
 
 
         $urlRouterProvider.otherwise('/welcome');

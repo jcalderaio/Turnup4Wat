@@ -79,31 +79,64 @@ angular.module('Turnup.controllers', [])
 
     })
 
-    .controller('NewPartyController', function($scope, $state, $rootScope) {
+    .controller('NewPartyController', function($scope, $state, $ionicLoading, $rootScope, $ionicHistory) {
 
-        $scope.myParty = {
-            title: 'My Party',
-            date: new Date(),
-            location: '123 St N',
-            description: 'My party\'s description.',
-            startTime: new Date(),
-            endTime: new Date(),
-            picture: 'http://static.giantbomb.com/uploads/original/2/27545/1025596-star_carnival.jpg',
-            friendsCount: 0,
-            attendanceCount: 0,
-            maxAttendance: 20
+        $scope.newParty = {
+            title: null,
+            date: null,
+            location: null,
+            description: null,
+            maxAttendance: null
         };
+        $scope.error = {};
 
-        $scope.createNewParty = function() {
-            var party = new Parse.Party();
-            $party.set("title", $scope.party.title);
-            $party.set("startDate", $scope.party.startDate);
-            $party.set("endDate", $scope.party.endDate);
-            $party.set("location", $scope.party.location);
-            $party.set("picture", $scope.party.picture);
-            $party.set("friendsCount", $scope.party.friendsCount);
-            $party.set("attendanceCount", $scope.party.attendanceCount);
-            $party.set("maxAttendance", $scope.party.maxAttendance);
+
+        $scope.addParty = function() {
+
+            var Party = Parse.Object.extend("Party");
+            var party = new Party();
+
+            party.save({
+                title: $scope.newParty.title,
+                date: $scope.newParty.date,
+                location: $scope.newParty.location,
+                description: $scope.newParty.description,
+                maxAttendance: $scope.newParty.maxAttendance
+            }, {
+                success: function(party) {
+                    $state.go('app.home');
+                },
+                error: function(party, error) {
+                    // The save failed.
+                    // error is a Parse.Error with an error code and message.
+                    $state.go('welcome');
+                }
+            });
+
+
+            /*
+            var Party = Parse.Object.extend("Party");
+            var party = new Party();
+
+            party.set("title", $scope.title);
+            party.set("date", $scope.date);
+            party.set("location", $scope.location);
+            party.set("description", $scope.description);
+            party.set("maxAttendance", $scope.maxAttendance);
+
+
+            party.save(null, {
+                success: function(party) {
+                    // Execute any logic that should take place after the object is saved.
+                    $state.go('app.home');
+                },
+                error: function(party, error) {
+                    // Execute any logic that should take place if the save fails.
+                    // error is a Parse.Error with an error code and message.
+                    $state.go('welcome');
+                }
+            });
+            */
         };
 
     })

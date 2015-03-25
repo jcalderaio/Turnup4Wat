@@ -79,31 +79,64 @@ angular.module('Turnup.controllers', [])
 
     })
 
-    .controller('NewPartyController', function($scope, $state, $rootScope) {
+    .controller('NewPartyController', function($scope, $state, $ionicLoading, $rootScope, $ionicPopup, $ionicHistory) {
 
-        $scope.myParty = {
-            title: 'My Party',
-            date: new Date(),
-            location: '123 St N',
-            description: 'My party\'s description.',
-            startTime: new Date(),
-            endTime: new Date(),
-            picture: 'http://static.giantbomb.com/uploads/original/2/27545/1025596-star_carnival.jpg',
-            friendsCount: 0,
-            attendanceCount: 0,
-            maxAttendance: 20
+        $scope.newParty = {
+            title: null,
+            date: null,
+            location: null,
+            description: null,
+            maxAttendance: null
+        };
+        $scope.error = {};
+
+
+        $scope.addParty = function() {
+
+            $scope.loading = $ionicLoading.show({
+                content: 'Adding Party',
+                animation: 'fade-in',
+                showBackdrop: true,
+                maxWidth: 200,
+                showDelay: 0
+            });
+
+            var Party = Parse.Object.extend("Party");
+            var party = new Party();
+
+            party.save({
+                user: $rootScope.user.username,
+                title: $scope.newParty.title,
+                date: $scope.newParty.date,
+                location: $scope.newParty.location,
+                description: $scope.newParty.description,
+                maxAttendance: $scope.newParty.maxAttendance
+            }, {
+                success: function(party) {
+                    $ionicLoading.hide();
+                    $scope.showAlert();
+                },
+                error: function(party, error) {
+                    $ionicLoading.hide();
+                    $scope.error.message = "Oops! An error occurred! Try adding party again.";
+                    $scope.$apply();
+
+                }
+            });
+
+
         };
 
-        $scope.createNewParty = function() {
-            var party = new Parse.Party();
-            $party.set("title", $scope.party.title);
-            $party.set("startDate", $scope.party.startDate);
-            $party.set("endDate", $scope.party.endDate);
-            $party.set("location", $scope.party.location);
-            $party.set("picture", $scope.party.picture);
-            $party.set("friendsCount", $scope.party.friendsCount);
-            $party.set("attendanceCount", $scope.party.attendanceCount);
-            $party.set("maxAttendance", $scope.party.maxAttendance);
+        $scope.showAlert = function() {
+            var alertPopup = $ionicPopup.alert({
+                title: 'Party added!',
+                template: 'Lets look for more parties!'
+            });
+            alertPopup.then(function(res) {
+                $state.go('app.home', {
+                    clear: true
+                });
+            });
         };
 
     })
