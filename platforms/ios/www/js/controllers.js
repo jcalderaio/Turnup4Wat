@@ -92,9 +92,9 @@ angular.module('Turnup.controllers', [])
             startTime: new Date(),
             endTime: new Date(),
             picture: 'http://static.giantbomb.com/uploads/original/2/27545/1025596-star_carnival.jpg',
-            friendsCount: 0,
-            attendanceCount: 0,
-            maxAttendance: 20
+            friendsCount: '0',
+            attendanceCount: '0',
+            maxAttendance: '20'
         };
 
 
@@ -140,7 +140,7 @@ angular.module('Turnup.controllers', [])
                 date: $scope.newParty.date,
                 location: $scope.newParty.location,
                 description: $scope.newParty.description,
-                attendanceCount: 0,
+                attendanceCount: $scope.newParty.attendanceCount,
                 maxAttendance: $scope.newParty.maxAttendance
             }, {
                 success: function(party) {
