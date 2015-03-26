@@ -67,6 +67,13 @@
                     </label>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <label class="item item-input">
+                        <input type="text" placeholder="Image Link" ng-model="newParty.image" required/>
+                    </label>
+                </div>
+            </div>
         </div>
         <div class="assertive" ng-show="error.message">{{error.message}}</div>
         <button class="button button-block button-positive" ng-click="addParty()">

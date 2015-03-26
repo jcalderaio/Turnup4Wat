@@ -8547,3 +8547,1151 @@
 2015-03-26 12:46:26.461 Turnup[37389:798461] [CDVTimer][TotalPluginStartup] 0.445008ms
 2015-03-26 12:46:26.745 Turnup[37389:798461] Resetting plugins due to page load.
 2015-03-26 12:46:27.730 Turnup[37389:798461] Finished load of: http://192.168.1.182:8100/#/app/home
+2015-03-26 16:07:05.526 Turnup[1198:12724] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/14F9D177-B353-41F5-9766-142AF37F506D/Library/Cookies/Cookies.binarycookies
+2015-03-26 16:07:05.742 Turnup[1198:12724] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-26 16:07:05.742 Turnup[1198:12724] Multi-tasking -> Device: YES, App: YES
+2015-03-26 16:07:05.751 Turnup[1198:12724] Unlimited access to network resources
+2015-03-26 16:07:06.118 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-03-26 16:07:06.118 Turnup[1198:12724] [CDVTimer][keyboard] 0.163972ms
+2015-03-26 16:07:06.118 Turnup[1198:12724] [CDVTimer][TotalPluginStartup] 0.326991ms
+2015-03-26 16:07:06.286 Turnup[1198:12724] Resetting plugins due to page load.
+2015-03-26 16:07:06.793 Turnup[1198:12724] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-26 16:07:06.817 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:07:06.817 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:07:06.817 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:07:06.984 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:07:06.984 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:07:06.984 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:07:06.986 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:07:06.986 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:07:06.986 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:07:27.217 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:07:27.217 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:07:27.217 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:07:55.156 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:07:55.156 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:07:55.156 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:07:55.156 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:07:55.156 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:07:55.156 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:08:08.139 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:08:08.139 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:08:08.139 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:08:09.307 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:08:09.307 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:08:09.307 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:08:17.309 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:08:17.309 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:08:17.309 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:08:17.310 Turnup[1198:12724] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:08:17.310 Turnup[1198:12724] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:08:17.310 Turnup[1198:12724] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:09:02.100 Turnup[1524:14645] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/5B50654C-AC89-498E-BD65-5CB0F0ABBB0C/Library/Cookies/Cookies.binarycookies
+2015-03-26 16:09:02.152 Turnup[1524:14645] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-26 16:09:02.153 Turnup[1524:14645] Multi-tasking -> Device: YES, App: YES
+2015-03-26 16:09:02.154 Turnup[1524:14645] Unlimited access to network resources
+2015-03-26 16:09:02.224 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-03-26 16:09:02.224 Turnup[1524:14645] [CDVTimer][keyboard] 0.135005ms
+2015-03-26 16:09:02.225 Turnup[1524:14645] [CDVTimer][TotalPluginStartup] 0.256002ms
+2015-03-26 16:09:02.279 Turnup[1524:14645] Resetting plugins due to page load.
+2015-03-26 16:09:02.615 Turnup[1524:14645] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-26 16:09:02.638 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:09:02.639 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:09:02.639 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:09:02.790 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:09:02.790 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:09:02.790 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:09:02.791 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:09:02.791 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:09:02.791 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:32:09.555 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:32:09.556 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:32:09.556 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:32:13.806 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:32:13.806 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:32:13.806 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:32:24.831 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:32:24.831 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:32:24.831 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:32:24.831 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:32:24.831 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:32:24.832 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:32:45.559 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:32:45.560 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:32:45.560 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:32:48.609 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:32:48.609 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:32:48.609 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:33:18.522 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:33:18.522 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:33:18.522 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:34:12.448 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:34:12.448 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:34:12.448 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:35:18.227 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:35:18.227 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:35:18.227 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:35:20.866 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:35:20.866 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:35:20.866 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:36:25.802 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:36:25.802 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:36:25.802 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:36:29.619 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:36:29.619 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:36:29.619 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:36:56.376 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:36:56.376 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:36:56.376 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:36:58.877 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:36:58.877 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:36:58.877 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:37:12.577 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:37:12.577 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:37:12.577 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:37:16.921 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:37:16.921 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:37:16.921 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:37:31.849 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:37:31.849 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:37:31.849 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:37:39.639 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:37:39.639 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:37:39.639 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:38:17.713 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:38:17.713 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:38:17.713 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:38:23.111 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:38:23.111 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:38:23.111 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:40:43.428 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:40:43.428 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:40:43.428 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:41:10.797 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:41:10.797 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:41:10.798 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:42:39.261 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:42:39.261 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:42:39.261 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:42:51.037 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:42:51.037 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:42:51.038 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:42:57.521 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:42:57.521 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:42:57.521 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:43:05.454 Turnup[1524:14645] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:43:05.454 Turnup[1524:14645] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:43:05.454 Turnup[1524:14645] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:43:53.214 Turnup[2750:49314] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/8A33F092-9C2C-4CE9-8389-35DE7687C474/Library/Cookies/Cookies.binarycookies
+2015-03-26 16:43:53.270 Turnup[2750:49314] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-26 16:43:53.270 Turnup[2750:49314] Multi-tasking -> Device: YES, App: YES
+2015-03-26 16:43:53.271 Turnup[2750:49314] Unlimited access to network resources
+2015-03-26 16:43:53.337 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-03-26 16:43:53.337 Turnup[2750:49314] [CDVTimer][keyboard] 0.145018ms
+2015-03-26 16:43:53.337 Turnup[2750:49314] [CDVTimer][TotalPluginStartup] 0.270009ms
+2015-03-26 16:43:53.398 Turnup[2750:49314] Resetting plugins due to page load.
+2015-03-26 16:43:53.804 Turnup[2750:49314] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-26 16:43:53.825 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:43:53.825 Turnup[2750:49314] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:43:53.825 Turnup[2750:49314] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:43:53.885 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:43:53.885 Turnup[2750:49314] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:43:53.885 Turnup[2750:49314] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:43:53.885 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:43:53.885 Turnup[2750:49314] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:43:53.886 Turnup[2750:49314] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:44:45.690 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:44:45.690 Turnup[2750:49314] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:44:45.690 Turnup[2750:49314] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:44:52.958 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:44:52.958 Turnup[2750:49314] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:44:52.958 Turnup[2750:49314] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:45:05.798 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:45:05.798 Turnup[2750:49314] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:45:05.798 Turnup[2750:49314] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:45:05.798 Turnup[2750:49314] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:45:05.798 Turnup[2750:49314] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:45:05.798 Turnup[2750:49314] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:46:49.236 Turnup[3106:53297] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/198B0388-6BFA-4C98-B9D8-0C4E737361E8/Library/Cookies/Cookies.binarycookies
+2015-03-26 16:46:49.290 Turnup[3106:53297] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-26 16:46:49.291 Turnup[3106:53297] Multi-tasking -> Device: YES, App: YES
+2015-03-26 16:46:49.292 Turnup[3106:53297] Unlimited access to network resources
+2015-03-26 16:46:49.359 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-03-26 16:46:49.359 Turnup[3106:53297] [CDVTimer][keyboard] 0.119984ms
+2015-03-26 16:46:49.359 Turnup[3106:53297] [CDVTimer][TotalPluginStartup] 0.226974ms
+2015-03-26 16:46:49.421 Turnup[3106:53297] Resetting plugins due to page load.
+2015-03-26 16:46:49.810 Turnup[3106:53297] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-26 16:46:49.832 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:46:49.832 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:46:49.832 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:46:49.887 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:46:49.888 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:46:49.888 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:46:49.888 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:46:49.888 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:46:49.888 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:51:12.629 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:51:12.629 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:51:12.629 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:51:15.175 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:51:15.175 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:51:15.175 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:51:43.091 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:51:43.091 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:51:43.091 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:51:46.097 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:51:46.097 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:51:46.097 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:52:54.579 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:52:54.579 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:52:54.579 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:52:55.720 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:52:55.720 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:52:55.720 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:53:07.105 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:53:07.105 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:53:07.105 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 16:53:07.105 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 16:53:07.105 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 16:53:07.105 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:03:03.503 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:03:03.504 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:03:03.504 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:03:45.347 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:03:45.347 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:03:45.348 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:03:53.691 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:03:53.691 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:03:53.691 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:05:44.434 Turnup[3106:53297] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:05:44.434 Turnup[3106:53297] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:05:44.434 Turnup[3106:53297] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:06:54.978 Turnup[3949:67941] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/9FFDD62D-D7B5-48AE-A820-7411B39DB3C5/Library/Cookies/Cookies.binarycookies
+2015-03-26 17:06:55.034 Turnup[3949:67941] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-26 17:06:55.034 Turnup[3949:67941] Multi-tasking -> Device: YES, App: YES
+2015-03-26 17:06:55.035 Turnup[3949:67941] Unlimited access to network resources
+2015-03-26 17:06:55.101 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-03-26 17:06:55.102 Turnup[3949:67941] [CDVTimer][keyboard] 0.120997ms
+2015-03-26 17:06:55.102 Turnup[3949:67941] [CDVTimer][TotalPluginStartup] 0.231981ms
+2015-03-26 17:06:55.169 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 17:06:55.537 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-26 17:06:55.560 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:06:55.560 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:06:55.560 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:06:55.617 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:06:55.617 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:06:55.617 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:06:55.617 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:06:55.617 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:06:55.617 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:15:31.178 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 17:15:31.368 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home
+2015-03-26 17:15:31.401 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:15:31.401 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:15:31.401 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:15:31.435 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:15:31.435 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:15:31.435 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:16:18.716 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 17:16:18.899 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home
+2015-03-26 17:16:18.926 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:16:18.926 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:16:18.926 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:16:18.944 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:16:18.944 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:16:18.944 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:20:33.316 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 17:20:33.490 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home
+2015-03-26 17:20:33.516 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:20:33.516 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:20:33.516 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 17:20:33.549 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 17:20:33.549 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 17:20:33.549 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:18:41.148 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:18:41.329 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home
+2015-03-26 18:18:41.355 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:18:41.355 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:18:41.355 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:18:41.392 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:18:41.392 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:18:41.392 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:18:49.952 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:18:49.952 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:18:49.953 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:19:23.755 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:19:23.756 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:19:23.756 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:19:23.756 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:19:23.756 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:19:23.756 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:19:42.779 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:19:42.939 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:19:42.968 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:19:42.968 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:19:42.968 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:19:42.985 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:19:42.985 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:19:42.985 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:20:39.705 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:20:39.705 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:20:39.705 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:20:52.373 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:20:52.373 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:20:52.373 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:23:06.197 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:23:06.359 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:23:06.385 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:23:06.385 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:23:06.385 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:23:06.408 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:23:06.408 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:23:06.409 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:31:27.392 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:31:27.597 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:31:27.623 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:31:27.623 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:31:27.623 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:31:27.665 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:31:27.665 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:31:27.665 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:31:31.824 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:31:31.921 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:31:31.945 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:31:31.946 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:31:31.946 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:31:31.979 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:31:31.980 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:31:31.980 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:32:20.966 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:32:21.130 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:32:21.169 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:32:21.169 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:32:21.169 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:32:21.194 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:32:21.194 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:32:21.194 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:32:43.348 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:32:43.490 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:32:43.516 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:32:43.516 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:32:43.516 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:32:43.551 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:32:43.551 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:32:43.551 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:33:22.728 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:33:22.923 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:33:22.950 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:33:22.950 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:33:22.950 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:33:22.973 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:33:22.973 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:33:22.974 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:33:47.712 Turnup[3949:67941] Resetting plugins due to page load.
+2015-03-26 18:33:47.807 Turnup[3949:67941] Finished load of: http://192.168.1.239:8100/#/app/home?clear=true
+2015-03-26 18:33:47.833 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:33:47.833 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:33:47.833 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:33:47.855 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:33:47.855 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:33:47.855 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:36:50.984 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:36:50.984 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:36:50.984 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:36:52.372 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:36:52.372 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:36:52.372 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:37:01.300 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:37:01.300 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:37:01.300 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:37:01.300 Turnup[3949:67941] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:37:01.301 Turnup[3949:67941] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:37:01.301 Turnup[3949:67941] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:37:41.824 Turnup[5674:118053] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/649497B0-1334-4440-BDC6-331F68C15FA4/Library/Cookies/Cookies.binarycookies
+2015-03-26 18:37:41.887 Turnup[5674:118053] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-26 18:37:41.887 Turnup[5674:118053] Multi-tasking -> Device: YES, App: YES
+2015-03-26 18:37:41.888 Turnup[5674:118053] Unlimited access to network resources
+2015-03-26 18:37:41.955 Turnup[5674:118053] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-03-26 18:37:41.955 Turnup[5674:118053] [CDVTimer][keyboard] 0.119984ms
+2015-03-26 18:37:41.955 Turnup[5674:118053] [CDVTimer][TotalPluginStartup] 0.279009ms
+2015-03-26 18:37:42.010 Turnup[5674:118053] Resetting plugins due to page load.
+2015-03-26 18:37:42.352 Turnup[5674:118053] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-26 18:37:42.374 Turnup[5674:118053] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:37:42.374 Turnup[5674:118053] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:37:42.374 Turnup[5674:118053] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:37:42.435 Turnup[5674:118053] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:37:42.435 Turnup[5674:118053] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:37:42.435 Turnup[5674:118053] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:37:42.435 Turnup[5674:118053] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:37:42.435 Turnup[5674:118053] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:37:42.435 Turnup[5674:118053] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:37:48.904 Turnup[5674:118053] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:37:48.904 Turnup[5674:118053] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:37:48.904 Turnup[5674:118053] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:40:36.829 Turnup[5674:118053] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:40:36.829 Turnup[5674:118053] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:40:36.829 Turnup[5674:118053] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:40:36.829 Turnup[5674:118053] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:40:36.829 Turnup[5674:118053] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:40:36.829 Turnup[5674:118053] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:45:46.490 Turnup[5674:126265] Terminating since there is no system app.
+2015-03-26 18:46:09.917 Turnup[6132:127661] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Johnny/Library/Developer/CoreSimulator/Devices/E1F3A891-20C4-481D-B621-080D1D2DC018/data/Containers/Data/Application/706C2C3C-F60D-4B6B-9FCE-EE8D2953A7A5/Library/Cookies/Cookies.binarycookies
+2015-03-26 18:46:09.972 Turnup[6132:127661] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-26 18:46:09.972 Turnup[6132:127661] Multi-tasking -> Device: YES, App: YES
+2015-03-26 18:46:09.973 Turnup[6132:127661] Unlimited access to network resources
+2015-03-26 18:46:10.040 Turnup[6132:127661] CDVPlugin class IonicKeyboard (pluginName: keyboard) does not exist.
+2015-03-26 18:46:10.040 Turnup[6132:127661] [CDVTimer][keyboard] 0.121951ms
+2015-03-26 18:46:10.040 Turnup[6132:127661] [CDVTimer][TotalPluginStartup] 0.229955ms
+2015-03-26 18:46:10.113 Turnup[6132:127661] Resetting plugins due to page load.
+2015-03-26 18:46:10.481 Turnup[6132:127661] Finished load of: http://192.168.1.239:8100/#/welcome
+2015-03-26 18:46:10.507 Turnup[6132:127661] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:46:10.507 Turnup[6132:127661] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:46:10.507 Turnup[6132:127661] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:46:10.575 Turnup[6132:127661] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:46:10.575 Turnup[6132:127661] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:46:10.575 Turnup[6132:127661] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]
+2015-03-26 18:46:10.575 Turnup[6132:127661] CDVPlugin class IonicKeyboard (pluginName: Keyboard) does not exist.
+2015-03-26 18:46:10.575 Turnup[6132:127661] ERROR: Plugin 'Keyboard' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-26 18:46:10.575 Turnup[6132:127661] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
+  "INVALID",
+  "Keyboard",
+  "close",
+  [
+
+  ]
+]

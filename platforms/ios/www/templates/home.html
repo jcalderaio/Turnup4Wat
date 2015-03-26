@@ -3,10 +3,11 @@
     <!-- Attend Tab ------------------------------------------------------------>
 
     <ion-tabs class="tabs-energized tabs-icon-top">
-        <ion-tab title="Attend" icon="ion-ios-game-controller-b" on-select="setNavTitle('Attend')">
+        <ion-tab title="Attend" icon-on="ion-ios-game-controller-b" icon-off="ion-ios-game-controller-b-outline" on-select="setNavTitle('Attend')">
             <ion-content padding="true" has-tabs="true" scroll="true">
                 <!--Attend Content -->
-
+                <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+                </ion-refresher>
                 <!--user's party-->
                 <div class="list card" ng-repeat="party in parties">
                     <div class="item item-avatar">
@@ -16,7 +17,7 @@
                     </div>
 
                     <div class="item item-body">
-                        <img class="full-image" src="{{party.picture}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
+                        <img class="full-image" src="{{party.image}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
                         <p>
                             {{party.description}}
                         </p>
@@ -52,7 +53,7 @@
 
 
         <!-- Host Tab ------------------------------------------------------------>
-        <ion-tab title="Host" icon="ion-ios-home" on-select="setNavTitle('Host')">
+        <ion-tab title="Host" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" on-select="setNavTitle('Host')">
             <ion-content padding="true">
                 <!--Host Content -->
                 <div class="list card">

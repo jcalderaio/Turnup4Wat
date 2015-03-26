@@ -54,6 +54,7 @@ angular.module('Turnup.controllers', [])
                             description: obj.get("description"),
                             attendanceCount: obj.get("attendanceCount"),
                             maxAttendance: obj.get("maxAttendance"),
+                            image: obj.get("image"),
                             parseObject: obj
                         };
                     });
@@ -116,7 +117,8 @@ angular.module('Turnup.controllers', [])
             location: null,
             description: null,
             attendanceCount: 0,
-            maxAttendance: null
+            maxAttendance: null,
+            image: null
         };
 
         $scope.error = {};
@@ -141,7 +143,8 @@ angular.module('Turnup.controllers', [])
                 location: $scope.newParty.location,
                 description: $scope.newParty.description,
                 attendanceCount: $scope.newParty.attendanceCount,
-                maxAttendance: $scope.newParty.maxAttendance
+                maxAttendance: $scope.newParty.maxAttendance,
+                image: $scope.newParty.image
             }, {
                 success: function(party) {
                     $ionicLoading.hide();
