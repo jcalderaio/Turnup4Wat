@@ -8,21 +8,21 @@
                 <!--Attend Content -->
 
                 <!--user's party-->
-                <div class="list card" collection-repeat="party in parties">
+                <div class="list card" ng-repeat="party in parties">
                     <div class="item item-avatar">
                         <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
-                        <h2>{{myParty.title}}</h2>
-                        <p>{{myParty.date.toLocaleDateString()}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
+                        <h2>{{party.title}}</h2>
+                        <p>{{party.date.toLocaleDateString()}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
                     </div>
 
                     <div class="item item-body">
-                        <img class="full-image" src="{{myParty.picture}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
+                        <img class="full-image" src="{{party.picture}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
                         <p>
-                            {{myParty.description}}
+                            {{party.description}}
                         </p>
                         <p>
-                            <a href="#" class="subdued">{{myParty.friendsCount}} friends going</a>
-                            <a href="#" class="subdued">{{myParty.attendanceCount}}/{{myParty.maxAttendance}} spots taken</a>
+                            <!-- <a href="#" class="subdued">{{party.friendsCount}} friends going</a> -->
+                            <a href="#" class="subdued">{{party.attendanceCount}}/{{party.maxAttendance}} spots taken</a>
                         </p>
                     </div>
 

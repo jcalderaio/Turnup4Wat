@@ -37,6 +37,33 @@ angular.module('Turnup.controllers', [])
 
     .controller('HomeController', function($scope, $state, $rootScope, $ionicNavBarDelegate) {
 
+        $scope.parties = [];
+
+        var Party = Parse.Object.extend("Party");
+        var query = new Parse.Query(Party);
+
+        query.find({
+            success: function(results) {
+
+                $scope.$apply(function() {
+                    $scope.parties = results.map(function(obj) {
+                        return {
+                            title: obj.get("title"),
+                            date: obj.get("date"),
+                            location: obj.get("location"),
+                            description: obj.get("description"),
+                            attendanceCount: obj.get("attendanceCount"),
+                            maxAttendance: obj.get("maxAttendance"),
+                            parseObject: obj
+                        };
+                    });
+                });
+            },
+            error: function(error) {
+
+            }
+        });
+
         $scope.goToPartyEdit = function() {
             $state.go('app.partyEdit');
         };
@@ -48,6 +75,7 @@ angular.module('Turnup.controllers', [])
         if (!$rootScope.isLoggedIn) {
             $state.go('welcome');
         }
+
     })
 
     .controller('PartyEditController', function($scope, $state, $rootScope) {
@@ -87,7 +115,7 @@ angular.module('Turnup.controllers', [])
             date: null,
             location: null,
             description: null,
-            attendanceCount: null,
+            attendanceCount: 0,
             maxAttendance: null
         };
 
@@ -107,7 +135,7 @@ angular.module('Turnup.controllers', [])
             var party = new Party();
 
             party.save({
-                user: $rootScope.user.username.toString(),
+                user: $rootScope.user.getUsername(),
                 title: $scope.newParty.title,
                 date: $scope.newParty.date,
                 location: $scope.newParty.location,
