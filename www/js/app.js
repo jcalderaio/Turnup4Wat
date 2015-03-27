@@ -97,6 +97,16 @@ angular.module('Turnup',
                         controller: 'NewPartyController'
                     }
                 }
+            })
+
+            .state('app.partyRequests', {
+                url: '/partyRequests',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/partyRequests.html',
+                        controller: 'PartyRequestsController'
+                    }
+                }
             });
 
 

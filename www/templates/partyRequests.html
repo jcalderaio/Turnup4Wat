@@ -7,9 +7,9 @@
     <ion-content>
         <div class="list card">
             <div class="item item-avatar">
-                <img src="{{user.avatar}}">
+                <img src="">
                 <h2>{{user.getUsername()}}</h2>
-                <p>{{user.getAge()}}</p>
+                <p>{{user.get('dob').toLocaleDateString()}}</p>
             </div>
         </div>
     </ion-content>
