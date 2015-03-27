@@ -252,8 +252,8 @@ angular.module('Turnup.controllers', [])
 
         $scope.showAlert = function() {
             var alertPopup = $ionicPopup.alert({
-                title: 'Party added!',
-                template: 'Lets look for more parties!'
+                title: 'Tournament added!',
+                template: 'Lets look for more tournaments!'
             });
             alertPopup.then(function(res) {
                 $state.go('app.home', {

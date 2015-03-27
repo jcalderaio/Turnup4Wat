@@ -46,11 +46,48 @@ angular.module('Turnup.controllers', [])
             minutes = minutes < 10 ? '0'+minutes : minutes;
             var strTime = hours + ':' + minutes + ' ' + ampm;
             return strTime;
-        }
+        };
 
-        $scope.sendPartyRequest(pa) {
+        $scope.showPartyFullAlert = function() {
+            var alertPopup = $ionicPopup.alert({
+                title: 'Party is full!',
+                template: 'Sorry!'
+            });
+            alertPopup.then(function(res){});
+        };
 
-        }
+        $scope.showPartyRequestError = function(errorMessage) {
+            var alertPopup = $ionicPopup.alert({
+                title: 'Something went wrong!',
+                template: errorMessage
+            });
+            alertPopup.then(function(res){});
+        };
+
+        $scope.showPartyRequestSuccess = function() {
+            var alertPopup = $ionicPopup.alert({
+                title: "Request sent!",
+                template: "Check Party Requests for status updates"
+            })
+        };
+
+        $scope.sendPartyRequest = function(attendee, party) {
+            if(party.attendanceCount >= party.maxAttendance) $scope.showPartyFullAlert();
+            else {
+                var User = Parse.Object.extend("User");
+                var hostQuery = new Parse.Query(User);
+                hostQuery.get(party.get('user'), {      //using the objectId associated with the party (user) to get the user object from Parse
+                    success: function(partyHost) {
+                        partyHost.addUnique("partyRequests", attendee.get('objectId'));
+                    },
+                    error: function(object, error) {
+                        // The object was not retrieved successfully.
+                        // error is a Parse.Error with an error code and message.
+                        $scope.showPartyRequestError(error.message);
+                    }
+                });
+            }
+        };
 
         $scope.parties = [];
 
@@ -190,7 +227,7 @@ angular.module('Turnup.controllers', [])
             var party = new Party();
 
             party.save({
-                user: $rootScope.user.getUsername(),
+                user: $rootScope.user.get('objectId'),
                 title: $scope.newParty.title,
                 date: $scope.newParty.date,
                 location: $scope.newParty.location,
@@ -215,8 +252,8 @@ angular.module('Turnup.controllers', [])
 
         $scope.showAlert = function() {
             var alertPopup = $ionicPopup.alert({
-                title: 'Party added!',
-                template: 'Lets look for more parties!'
+                title: 'Tournament added!',
+                template: 'Lets look for more tournaments!'
             });
             alertPopup.then(function(res) {
                 $state.go('app.home', {

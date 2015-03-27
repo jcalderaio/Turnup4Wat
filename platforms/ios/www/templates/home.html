@@ -9,7 +9,7 @@
                 <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
                 </ion-refresher>
                 <!-- If no parties to show -->
-                <h3 ng-hide="parties.length" class="subdued">Where's the party at?</h3>
+                <h3 ng-hide="parties.length" class="subdued">Where's the tournament at?</h3>
                 <h5 ng-hide="parties.length" class="subdued">Maybe you should add one...</h5>
                 <!--user's party-->
                 <div class="list card" ng-repeat="party in parties">
@@ -32,7 +32,7 @@
 
                     <div class="item tabs tabs-secondary tabs-icon-left">
                         <a class="tab-item" href="#">
-                            <i class="icon ion-checkmark" ng-click="attendParty()"></i>
+                            <i class="icon ion-checkmark" ng-click="sendPartyRequest(user, party)"></i>
                             Attend
                         </a>
                         <a class="tab-item" href="#">
@@ -46,6 +46,7 @@
                     </div>
                 </div>
                 <!--end user's party-->
+                <button class="button button-block button-positive">scrolling filler has to be longer than one button</button>
             </ion-content>
         </ion-tab>
 
@@ -58,55 +59,26 @@
         <ion-tab title="Host" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" on-select="setNavTitle('Host')">
             <ion-content padding="true">
                 <!--Host Content -->
-                <div class="list card" ng-repeat="party in parties" ng-hide="">
+                <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+                </ion-refresher>
+                <!-- If no parties to show -->
+                <h3 ng-hide="parties.length" class="subdued">You're not hosting any tournaments</h3>
+                <h5 ng-hide="parties.length" class="subdued">Maybe you should add one...</h5>
+
+                <div class="list card" ng-repeat="party in parties">
                     <div class="item item-avatar">
                         <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
                         <h2>{{party.title}}</h2>
-                        <p>{{party.date.toLocaleDateString()}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
+                        <p>{{party.date.toLocaleDateString()}} at {{calculatePartyTimeAsString(party.date)}}</p>
                     </div>
 
                     <div class="item item-body">
-                        <img class="full-image" src="{{party.picture}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
+                        <img class="full-image" src="{{party.image}}">
                         <p>
                             {{party.description}}
                         </p>
                         <p>
-                            <!-- <a href="#" class="subdued">{{party.friendsCount}} friends going</a> -->
                             <a href="#" class="subdued">{{party.attendanceCount}}/{{party.maxAttendance}} spots taken</a>
-                        </p>
-                    </div>
-
-                    <div class="item tabs tabs-secondary tabs-icon-left">
-                        <a class="tab-item" href="#">
-                            <i class="icon ion-checkmark"></i>
-                            Attend
-                        </a>
-                        <a class="tab-item" href="#">
-                            <i class="icon ion-information-circled"></i>
-                            More info
-                        </a>
-                        <a class="tab-item" href="#">
-                            <i class="icon ion-close"></i>
-                            Hide
-                        </a>
-                    </div>
-                </div>
-
-                <div class="list card">
-                    <div class="item item-avatar">
-                        <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
-                        <h2>Smash Bros Tournament</h2>
-                        <p>Friday, April 3rd</p>
-                    </div>
-
-                    <div class="item item-body">
-                        <img class="full-image" src="http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/article_main_half/public/images/83640.jpg?itok=DME5UAPw">
-                        <p>
-                            Hey guys, I'm throwing a Smash Bros Tournament on Friday, April 3rd. Players of all skill levels welcome, we do our best to maintain a friendly and welcoming atmosphere. There will be a cash prize, $100, and a $5 entrance fee, but we'll have plenty of practice and just for fun rounds too.
-                        </p>
-                        <p>
-                            <a href="#" class="subdued">2 friends going</a>
-                            <a href="#" class="subdued">20/50 spots taken</a>
                         </p>
                     </div>
 
@@ -126,8 +98,8 @@
                         </a>
                     </div>
                 </div>
-                <button class="button button-block button-positive" ui-sref="app.newParty">New party</button>
-                <button class="button button-block button-positive">I'm a placeholder because John hasn't fixed the scrolling</button>
+                <button class="button button-block button-positive" ui-sref="app.newParty">New tournament</button>
+                <button class="button button-block button-positive" ng-hide="!parties.length">I'm a placeholder because John hasn't fixed the scrolling</button>
             </ion-content>
 
         </ion-tab>
