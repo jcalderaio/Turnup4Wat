@@ -29,55 +29,40 @@
 
         <!--user input section-->
         <div class="list">
-            <div class="row">
-                <div class="col  col-67">
-                    <div class="list">
-                        <label class="item item-input">
-                            <input type="text" maxlength="23" placeholder="Title" ng-model="newParty.title" required />
-                        </label>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="list">
-                        <label class="item item-input">
-                            <input type="date" placeholder="When?" ng-model="newParty.date" required />
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <!--end 1st row, begin 2nd row-->
-            <div class="row">
-                <div class="col">
-                    <label class="item item-input">
-                        <input type="text" maxlength="50" placeholder="Location" ng-model="newParty.location" required/>
-                    </label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <label class="item item-input">
-                        <input type="text" placeholder="Description" ng-model="newParty.description" required/>
-                    </label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <label class="item item-input">
-                        <input type="number" placeholder="Max Number of Attendees" ng-model="newParty.maxAttendance" required/>
-                    </label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <label class="item item-input">
-                        <input type="text" placeholder="Image Link" ng-model="newParty.image" required/>
-                    </label>
-                </div>
-            </div>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Title</span>
+                <input type="text" maxlength="23" placeholder="Super Smash Bros Tournament" ng-model="newParty.title" required />
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Date</span>
+                <input type="date" placeholder="When?" ng-model="newParty.date" required />
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Location</span>
+                <input type="text" maxlength="50" placeholder="123 Playstation Ave, Lego City, FL 33456" ng-model="newParty.location" required/>
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Description</span>
+                <input type="text" placeholder="Hey guys, I'm throwing a Smash Bros Tournament on Friday, April 3rd. Players of all skill levels welcome." ng-model="newParty.description" required/>
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Max Attendance</span>
+                <input type="number" placeholder="12" ng-model="newParty.maxAttendance" required/>
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Image Link</span>
+                <input type="text" placeholder="Image Link" ng-model="newParty.image" required/>
+            </label>
         </div>
+
+
         <div class="assertive" ng-show="error.message">{{error.message}}</div>
         <button class="button button-block button-positive" ng-click="addParty()">
             ADD PARTY
         </button>
     </ion-content>
 </ion-view>
+
+
+
+

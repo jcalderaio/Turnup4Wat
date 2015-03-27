@@ -223,6 +223,11 @@ angular.module('Turnup.controllers', [])
 
     })
 
+    .controller('PartyRequestsController', function($scope, $state, $rootScope) {
+
+
+    })
+
     .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
         $scope.user = {
             username: null,
