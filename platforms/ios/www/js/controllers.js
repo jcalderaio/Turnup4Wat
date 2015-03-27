@@ -37,6 +37,21 @@ angular.module('Turnup.controllers', [])
 
     .controller('HomeController', function($scope, $state, $rootScope, $ionicNavBarDelegate) {
 
+        $scope.calculatePartyTimeAsString = function(date) {
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // the hour '0' should be '12'
+            minutes = minutes < 10 ? '0'+minutes : minutes;
+            var strTime = hours + ':' + minutes + ' ' + ampm;
+            return strTime;
+        }
+
+        $scope.sendPartyRequest(pa) {
+
+        }
+
         $scope.parties = [];
 
         //Automatically call this on first load
@@ -231,7 +246,7 @@ angular.module('Turnup.controllers', [])
             var today = new Date();
             var age = today.getFullYear() - birthday.getFullYear();
             var monthDifference = today.getMonth() - birthday.getMonth();
-            if(m < 0 || (m === 0 && today.getDate() < birthday.getDate())) --age;
+            if(monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthday.getDate())) --age;
             return age;
         };
 

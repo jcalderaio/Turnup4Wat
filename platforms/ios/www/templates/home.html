@@ -16,7 +16,7 @@
                     <div class="item item-avatar">
                         <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
                         <h2>{{party.title}}</h2>
-                        <p>{{party.date.toLocaleDateString()}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
+                        <p>{{party.date.toLocaleDateString()}} at {{calculatePartyTimeAsString(party.date)}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
                     </div>
 
                     <div class="item item-body">

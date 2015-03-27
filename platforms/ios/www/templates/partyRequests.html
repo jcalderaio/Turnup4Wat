@@ -9,11 +9,12 @@
             <div class="item item-avatar">
                 <img src="">
                 <h2>{{user.get('name')}}</h2>
-                <p>{{calculateAge(user.get('dob'))}}</p>
+                <p>{{calculateAge(user.get('dob'))}} years old</p>
             </div>
 
             <div class="item item-body">
                 <p>{{user.get('description')}}</p>
+                <h5>Wants to go to {{partyRequest.get('title')}}</h5>
                 <div class="item tabs tabs-icon-only">
                     <a class="tab-item" href="#">
                         <i class="icon ion-checkmark"></i>
