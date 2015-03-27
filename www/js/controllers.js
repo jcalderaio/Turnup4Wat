@@ -231,7 +231,7 @@ angular.module('Turnup.controllers', [])
             var today = new Date();
             var age = today.getFullYear() - birthday.getFullYear();
             var monthDifference = today.getMonth() - birthday.getMonth();
-            if(m < 0 || (m === 0 && today.getDate() < birthday.getDate())) --age;
+            if(monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthday.getDate())) --age;
             return age;
         };
 

@@ -227,6 +227,14 @@ angular.module('Turnup.controllers', [])
 
         $scope.showReviewsButton = true;
 
+        $scope.calculateAge = function(birthday) {
+            var today = new Date();
+            var age = today.getFullYear() - birthday.getFullYear();
+            var monthDifference = today.getMonth() - birthday.getMonth();
+            if(m < 0 || (m === 0 && today.getDate() < birthday.getDate())) --age;
+            return age;
+        };
+
         $scope.switchShownButton = function() {
             //$scope.showReviewsButton = !$scope.showReviewsButton;
         };
@@ -361,6 +369,7 @@ angular.module('Turnup.controllers', [])
             });
 
             var user = new Parse.User();
+            user.set("name", $scope.user.name);
             user.set("username", $scope.user.email);
             user.set("password", $scope.user.password);
             user.set("email", $scope.user.email);

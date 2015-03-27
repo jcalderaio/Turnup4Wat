@@ -9,7 +9,8 @@
                 <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
                 </ion-refresher>
                 <!-- If no parties to show -->
-                <h3 ng-hide="parties.length" class="subdued">Sorry, there are no parties to show. Maybe you should add one...</h3>
+                <h3 ng-hide="parties.length" class="subdued">Where's the party at?</h3>
+                <h5 ng-hide="parties.length" class="subdued">Maybe you should add one...</h5>
                 <!--user's party-->
                 <div class="list card" ng-repeat="party in parties">
                     <div class="item item-avatar">
