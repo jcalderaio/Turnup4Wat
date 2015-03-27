@@ -8,6 +8,8 @@
                 <!--Attend Content -->
                 <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
                 </ion-refresher>
+                <!-- If no parties to show -->
+                <h3 ng-hide="parties.length" class="subdued">Sorry, there are no parties to show. Maybe you should add one...</h3>
                 <!--user's party-->
                 <div class="list card" ng-repeat="party in parties">
                     <div class="item item-avatar">
@@ -43,7 +45,6 @@
                     </div>
                 </div>
                 <!--end user's party-->
-                <button class="button button-block button-positive">I'm a placeholder because John hasn't fixed the scrolling</button>
             </ion-content>
         </ion-tab>
 

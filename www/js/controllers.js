@@ -39,6 +39,8 @@ angular.module('Turnup.controllers', [])
 
         $scope.parties = [];
 
+        //Automatically call this on first load
+
         var Party = Parse.Object.extend("Party");
         var query = new Parse.Query(Party);
 
@@ -64,6 +66,42 @@ angular.module('Turnup.controllers', [])
 
             }
         });
+
+        //Pull this on subsequent loads
+
+        $scope.doRefresh = function() {
+
+            var Party = Parse.Object.extend("Party");
+            var query = new Parse.Query(Party);
+
+            query.find({
+                success: function(results) {
+
+                    $scope.$apply(function() {
+                        $scope.parties = results.map(function(obj) {
+                            return {
+                                title: obj.get("title"),
+                                date: obj.get("date"),
+                                location: obj.get("location"),
+                                description: obj.get("description"),
+                                attendanceCount: obj.get("attendanceCount"),
+                                maxAttendance: obj.get("maxAttendance"),
+                                image: obj.get("image"),
+                                parseObject: obj
+                            };
+                        });
+                    });
+                },
+                error: function(error) {
+
+                }
+            });
+
+            $scope.$broadcast('scroll.refreshComplete');
+            $scope.$apply();
+        };
+
+
 
         $scope.goToPartyEdit = function() {
             $state.go('app.partyEdit');
