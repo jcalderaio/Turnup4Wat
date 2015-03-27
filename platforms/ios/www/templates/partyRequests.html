@@ -7,9 +7,31 @@
     <ion-content>
         <div class="list card">
             <div class="item item-avatar">
-                <img src="{{user.avatar}}">
+                <img src="">
                 <h2>{{user.getUsername()}}</h2>
-                <p>{{user.getAge()}}</p>
+                <p>{{user.get('dob').toLocaleDateString()}}</p>
+            </div>
+
+            <div class="item item-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="item tabs tabs-icon-only">
+                            <a class="tab-item" href="#">
+                                <i class="icon ion-checkmark"></i>
+                            </a>
+                            <a class="tab-item" href="#">
+                                <i class="icon ion-chatbubble"></i>
+                            </a>
+                            <a class="tab-item" href="#">
+                                <i class="icon ion-close"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <button class="button button-positive button-block" ng-hide="!showReviewsButton" ng-click="switchShownButton()">Reviews</button>
+                        <button class="button button-positive button-block" ng-hide="showReviewsButton" ng-click="switchShownButton()">Info</button>
+                    </div>
+                </div>
             </div>
         </div>
     </ion-content>

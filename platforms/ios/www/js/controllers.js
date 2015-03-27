@@ -225,6 +225,11 @@ angular.module('Turnup.controllers', [])
 
     .controller('PartyRequestsController', function($scope, $state, $rootScope) {
 
+        $scope.showReviewsButton = true;
+
+        $scope.switchShownButton = function() {
+            //$scope.showReviewsButton = !$scope.showReviewsButton;
+        };
 
     })
 
