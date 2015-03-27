@@ -223,6 +223,11 @@ angular.module('Turnup.controllers', [])
 
     })
 
+    .controller('PartyRequestsController', function($scope, $state, $rootScope) {
+
+
+    })
+
     .controller('LoginController', function($scope, $state, $rootScope, $ionicLoading, $ionicHistory) {
         $scope.user = {
             username: null,
@@ -354,6 +359,7 @@ angular.module('Turnup.controllers', [])
             user.set("username", $scope.user.email);
             user.set("password", $scope.user.password);
             user.set("email", $scope.user.email);
+            user.set("dob", $scope.user.dob);
 
             user.signUp(null, {
                 success: function(user) {
