@@ -1,0 +1,7 @@
+{
+    "name": "Turnup",
+    "description": "An application to find local parties",
+    "repository": "https://github.com/kenantufekci/Turnup",
+    "logo": "http://pathToYourLogo.png",
+    "keywords": ["ionic"]
+}
