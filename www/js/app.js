@@ -4,9 +4,10 @@
 // 'ionicParseApp' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'ionicParseApp.controllers' is found in MainController.js
-angular.module('Turnup',
-    [ 'ionic', 'Turnup.controllers' ]
-)
+angular.module('Turnup.controllers', []);
+angular.module('Turnup.services', []);
+
+angular.module('Turnup', [ 'ionic', 'Turnup.controllers', 'Turnup.services' ] )
     .config(function($stateProvider, $urlRouterProvider) {
 
         // Ionic uses AngularUI Router which uses the concept of states

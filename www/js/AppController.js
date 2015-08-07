@@ -1,4 +1,4 @@
-angular.module('Turnup.controllers', [])
+angular.module('Turnup.controllers')
 
     .controller('AppController', function($scope, $state, $rootScope, $ionicHistory, $stateParams) {
         if ($stateParams.clear) {
