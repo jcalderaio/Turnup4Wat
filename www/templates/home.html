@@ -14,13 +14,13 @@
                 <!--user's party-->
                 <div class="list card" ng-repeat="party in parties">
                     <div class="item item-avatar">
-                        <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
+                        <img src="http://www.spcengineering.org/uploads/4/9/9/6/4996411/178615_orig.jpg">
                         <h2>{{party.title}}</h2>
                         <p>{{party.date.toLocaleDateString()}} at {{calculatePartyTimeAsString(party.date)}}</p>    <!--toLocaleDateString() displays in USA as Month DD, YYYY, but the date object contains the exact time down to millisecond accuracy-->
                     </div>
 
                     <div class="item item-body">
-                        <img class="full-image" src="{{party.image}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
+                        <img class="full-image" ng-src="{{party.image}}">  <!--currently loading this picture as a URL to the internet, need to change to loading from Parse database-->
                         <p>
                             {{party.description}}
                         </p>
@@ -67,13 +67,13 @@
 
                 <div class="list card" ng-repeat="party in parties">
                     <div class="item item-avatar">
-                        <img src="https://colline.co/wp-content/uploads/2015/03/good-video-game-room-setup-ideas-ultimate-video-game-room-updated-the-game-room-9.jpg">
+                        <img src="http://www.spcengineering.org/uploads/4/9/9/6/4996411/178615_orig.jpg">
                         <h2>{{party.title}}</h2>
                         <p>{{party.date.toLocaleDateString()}} at {{calculatePartyTimeAsString(party.date)}}</p>
                     </div>
 
                     <div class="item item-body">
-                        <img class="full-image" src="{{party.image}}">
+                        <img class="full-image" ng-src="{{party.image}}">
                         <p>
                             {{party.description}}
                         </p>
