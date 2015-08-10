@@ -118,8 +118,6 @@ angular.module('Turnup.controllers')
             $scope.$apply();
         };
 
-
-
         $scope.goToPartyEdit = function() {
             $state.go('app.partyEdit');
         };
@@ -131,5 +129,4 @@ angular.module('Turnup.controllers')
         if (!$rootScope.isLoggedIn) {
             $state.go('welcome');
         }
-
     });
