@@ -19,4 +19,4 @@ This app currently needs to be updated. I used Parse as the backend and, as many
 
 ## License
 
-This code is unlicensed, unfinished, and open source. Please take a look and do with it what you will. I'd love for this idea to be completed, but I'm too sick to finish it.
+This code is unlicensed, unfinished, and open source. Please take a look and do with it what you will - I'd love for this idea to be completed.
